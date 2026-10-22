@@ -1,0 +1,28 @@
+{
+  "dataset_suite": "libero_object",
+  "first_task": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+  "audit_episodes": 10,
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "render_height": 448,
+  "render_width": 448,
+  "depth_unit": "m",
+  "coordinate_frame": "world",
+  "sample_points": 4096,
+  "random_seed": 0,
+  "libero_commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "robosuite_version": "1.4.0",
+  "libero_checkout": "/home/drh/project/ECV-VLA/vendor/LIBERO",
+  "sim_python": "/mnt/nvme1/drh/miniforge3/envs/D_VLA/bin/python",
+  "grasp_min_contact_frames": 3,
+  "grasp_lift_m": 0.05,
+  "grasp_relative_motion_m": 0.03,
+  "gates": {
+    "state_restore_10": true,
+    "rgbd_alignment": false,
+    "contact_review_30": false,
+    "small_sample_fit": false
+  }
+}

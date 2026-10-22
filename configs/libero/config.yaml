@@ -1,0 +1,5 @@
+assets: /home/drh/project/ECV-VLA/vendor/LIBERO/libero/libero/assets
+bddl_files: /home/drh/project/ECV-VLA/vendor/LIBERO/libero/libero/bddl_files
+benchmark_root: /home/drh/project/ECV-VLA/vendor/LIBERO/libero/libero
+datasets: /mnt/nvme1/drh/D_VLA/data/raw
+init_states: /home/drh/project/ECV-VLA/vendor/LIBERO/libero/libero/init_files

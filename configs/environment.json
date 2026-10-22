@@ -1,0 +1,17 @@
+{
+  "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:42:31) [GCC 14.4.0]",
+  "packages": {
+    "robosuite": "1.4.0",
+    "mujoco": "2.3.7",
+    "torch": "2.7.1+cu128",
+    "h5py": "3.16.0",
+    "numpy": "1.26.4",
+    "libero": "0.1.0"
+  },
+  "cuda_available": true,
+  "torch_cuda": "12.8",
+  "environment_name": "D_VLA",
+  "path": "/mnt/nvme1/drh/miniforge3/envs/D_VLA",
+  "base_cloned_from": "/home/drh/.conda/envs/ecv-vla",
+  "libero_commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01"
+}
