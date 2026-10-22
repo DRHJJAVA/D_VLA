@@ -23,6 +23,23 @@
     "state_restore_10": true,
     "rgbd_alignment": false,
     "contact_review_30": false,
-    "small_sample_fit": false
+    "small_sample_fit": false,
+    "complete_video_rgbd_render": true
+  },
+  "training_input": {
+    "type": "complete_demonstration_rgbd_video",
+    "frame_policy": "all_saved_states_in_order",
+    "subsample": false,
+    "cameras": [
+      "agentview",
+      "robot0_eye_in_hand"
+    ],
+    "channels": [
+      "rgb",
+      "depth_m"
+    ],
+    "segmentation": false,
+    "depth_unit": "m",
+    "target_policy": "predict_grasp_region_from_full_demonstration"
   }
 }

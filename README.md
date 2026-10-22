@@ -1,25 +1,24 @@
-# D_VLA — LIBERO RGB-D 3D grasp-region prediction
+# D_VLA — LIBERO complete-video RGB-D grasp-region experiment
 
-Experiment source: `LIBERO_RGBD三维抓取关键区域预测实验方案.md` (v1.0, 2026-10-23). This project is remote-only; raw demonstrations and all generated data stay on this server.
+Project root: `/mnt/nvme1/drh/D_VLA`. Conda environment: `D_VLA` at `/mnt/nvme1/drh/miniforge3/envs/D_VLA`. All original and generated data remain on the remote data disk.
+
+## Input contract
+Each training example uses the **entire expert demonstration**, in temporal order, with RGB video and synchronized metric depth for `agentview` and `robot0_eye_in_hand`. Every saved state is rendered at 448×448. There is no temporal clipping or frame subsampling. No segmentation is produced by the current rendering pipeline or supplied as training input. MuJoCo contact and object pose information are used only to derive supervision and audit grasp events. See `docs/input_contract.md`.
 
 ## Layout
-- `src/`: versioned preprocessing, restoration, labeling, models, and evaluation code.
-- `configs/`: fixed experiment settings and environment provenance.
-- `data/raw/`: original HDF5 demonstrations; never edit in place.
-- `data/audits/`: schema and state-restoration reports.
-- `data/rendered/`: synchronized RGB/depth/segmentation and camera metadata.
-- `data/events/`: expert grasp event tables and contact checks.
-- `data/splits/`: episode/asset partitions and leakage checks.
-- `data/samples/`: point-cloud and visual-feature caches.
-- `outputs/`: checkpoints, metrics, and visualizations.
-- `logs/`: downloads and run logs.
-- `docs/`: protocol and manual review records.
+- `src/`: audit, rendering, event extraction, model and evaluation code.
+- `configs/`: protocol settings and environment provenance.
+- `data/raw/`: original LIBERO HDF5 demonstrations, untouched.
+- `data/audits/`: dataset and state-restoration reports.
+- `data/rendered/`: complete synchronized RGB-D demonstration videos.
+- `data/events/`: contact-derived grasp event candidates.
+- `data/splits/`: episode and asset partitions.
+- `data/samples/`: training samples and caches.
+- `outputs/`: checkpoints, metrics and visualizations.
+- `logs/`: run logs.
+- `docs/`: input contract, protocol and review records.
 
 ## Current stage
-Stage 1 complete for the LIBERO-Object pilot: all ten task HDF5 files obtained; ten alphabet-soup demonstrations passed state restoration and camera-field checks. Stage 2 has a synchronized RGB-D pilot. One grasp event is a numeric candidate pending manual surface/contact review. Training remains gated on visual alignment, 30-event review, safe splits, and a 20-sample fit check. See `docs/STATUS.md` and `docs/first_run.md`.
+Ten LIBERO-Object tasks (500 demonstrations) are downloaded on the server. Ten alphabet-soup demonstrations passed state-restoration checks. A complete RGB-D video render for `demo_0` is in progress or complete; see `docs/STATUS.md`. One grasp event is a numeric candidate requiring review. No model training or performance result is claimed yet.
 
-## External, read-only dependencies
-LIBERO checkout: `/home/drh/project/ECV-VLA/vendor/LIBERO` at commit `8f1084e3132a39270c3a13ebe37270a43ece2a01`. Simulation Python: `/mnt/nvme1/drh/ECV-VLA-data/envs/smolvla-hf-control/bin/python` (`robosuite 1.4.0`). These remain outside the new project and are not modified.
-
-## First dataset
-LIBERO-Object HDF5 from `yifengzhu-hf/LIBERO-datasets` through the Hugging Face mirror, written directly to `data/raw/libero_object/`. All ten task files have been size-checked and the `.part` suffix removed. Dataset metadata and SHA256 will be recorded in `data/audits/`.
+LIBERO source is `/home/drh/project/ECV-VLA/vendor/LIBERO` at commit `8f1084e3132a39270c3a13ebe37270a43ece2a01`. The experiment runs in the dedicated `D_VLA` conda environment.

@@ -1,16 +1,9 @@
 # First remote run
 
-Project: `/mnt/nvme1/drh/D_VLA`
-Conda environment: `D_VLA` (`/mnt/nvme1/drh/miniforge3/envs/D_VLA`)
+Project: `/mnt/nvme1/drh/D_VLA`. Conda environment: `D_VLA` (`/mnt/nvme1/drh/miniforge3/envs/D_VLA`).
 
-Activate with `source /mnt/nvme1/drh/miniforge3/etc/profile.d/conda.sh && conda activate D_VLA`. Set `LIBERO_CONFIG_PATH=/mnt/nvme1/drh/D_VLA/configs/libero`, `MUJOCO_GL=egl`, and `PYOPENGL_PLATFORM=egl` for simulation.
+For simulation, set `LIBERO_CONFIG_PATH=/mnt/nvme1/drh/D_VLA/configs/libero`, `MUJOCO_GL=egl`, and `PYOPENGL_PLATFORM=egl`. Run `/mnt/nvme1/drh/miniforge3/envs/D_VLA/bin/python src/render_rgbd_episode.py --input data/raw/libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket_demo.hdf5 --output data/rendered/alphabet_soup_demo_0_full_rgbd.h5 --libero-root /home/drh/project/ECV-VLA/vendor/LIBERO --episode demo_0` from the project root.
 
-Key outputs:
-- `data/audits/libero_object_inventory.csv` and `.json`: ten task files, 500 demonstrations, 74,507 frames.
-- `data/audits/alphabet_soup_schema_10.json`: first HDF5 integrity/field audit and SHA256.
-- `data/audits/alphabet_soup_restore_10.json`: all ten restored; camera fields and state roundtrip error below 1e-12 (maximum observed 2.22e-16).
-- `data/rendered/alphabet_soup_demo0_frame0/`: RGB PNG, per-camera NPZ containing depth in meters, instance IDs, XYZ world points and matrices.
-- `data/events/alphabet_soup_demo0_contact_probe.json`: MuJoCo contact points and object/gripper poses for 148 frames.
-- `data/events/alphabet_soup_demo0_grasp_candidates.json`: one numeric grasp candidate, pending manual surface review.
+The resulting HDF5 stores the **entire 148-frame demonstration**, with synchronized RGB and metric depth for both cameras, plus camera matrices. It has no segmentation. Original HDF5 demonstrations are in `data/raw/libero_object/`; their stored RGB is 128×128 and they have no depth, so the saved simulator states are re-rendered at 448×448.
 
-The original HDF5 files are in `data/raw/libero_object/`. Their stored RGB is 128×128 and contains no depth; the 448×448 RGB and depth in `data/rendered/` are re-rendered from the same saved state. The current point cloud is a full observation pilot, before workspace calibration and 4,096-point sampling.
+Audit reports are in `data/audits/`; contact-derived candidate labels are in `data/events/`. The original single-frame segmented render is obsolete and is excluded from the input pipeline. No data is copied to the local computer.
