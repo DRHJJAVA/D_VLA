@@ -8,6 +8,7 @@ Completed:
 - Rendered all 50 alphabet-soup demonstrations as synchronized RGB/depth sequences; individual pre-contact frames can be selected without local data transfer.
 - Extracted 47 provisional two-finger, lifted-and-stable grasp candidates from 50 alphabet-soup demonstrations. Three episodes did not pass numeric filtering; these must not be treated as negative labels.
 - Located cached DINOv2 ViT-S/14 weights on the server and verified they load into the installed timm implementation.
+- Selected 30 reproducible candidate events for manual review in `data/audits/contact_review_queue_30.json`; visual review remains pending.
 
 Completed single-frame pilot: generated 20 samples from five training episodes (4,096 points each), with two-camera frozen DINOv2 features, offline object assignment and contact-based soft labels. A pure PyTorch PointNet++ fit ran for 10 epochs on those 20 samples. Balanced training BCE fell from 0.488 to 0.322. On the same training samples, mean AP for points with soft label >0.5 was 0.564 versus 0.00178 positive prevalence; mean AUC was 0.998 (19 of 20 samples had such points). The checkpoint is `outputs/alphabet_soup_pointnet2_fit20/best.pt`; metrics are in `outputs/alphabet_soup_pointnet2_fit20/`. This is a fit check on provisional labels, not a held-out performance result.
 
