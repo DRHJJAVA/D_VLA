@@ -27,3 +27,5 @@ A separate 16,384-point technical pilot succeeded on four training frames, inclu
 Open gates remain unchanged: visual audit of 30 candidate contact events (at least 27 correct), RGB-D/contact-surface alignment, validation-selected contact-coverage tolerance, three-model comparison, and unseen-asset split. The currently reported run does not satisfy these gates.
 
 The 16k sample and graph partitions are complete (132/28/28 each); the model is waiting for shared GPU availability. A validation-only density audit found median target-point count 215.5 and a 10 mm contact-weighted sampling ceiling of 87.7% (vs 54.4% at 4k). The 10 mm primary evaluation tolerance, plus sigma sensitivity, was frozen before inspecting 16k model/test results; details in `docs/coverage_sampling_audit.md`.
+
+The corrected 4k reference at the frozen 10 mm tolerance has been computed on server CPU: test coverage at 10/20/30% target-point budgets is 0.2440/0.2530/0.2619 versus equal-budget random 0.0575/0.1079/0.1468, with an all-point sampling ceiling of 0.3333. This remains provisional and known-asset only.
