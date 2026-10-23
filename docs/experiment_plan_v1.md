@@ -1,5 +1,3 @@
-> **Input protocol update (2026-10-23):** The user requires the complete demonstration RGB video with depth at every frame and no segmentation input. The single-frame and segmentation passages below are retained only as the original plan; `docs/input_contract.md` governs the actual experiment.
-
 # LIBERO RGB-D 三维抓取关键区域预测实验方案
 
 版本：v1.0

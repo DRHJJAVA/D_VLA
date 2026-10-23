@@ -56,7 +56,7 @@ def main():
         print("creating environment", flush=True)
         env = OffScreenRenderEnv(bddl_file_name=str(bddl), camera_names=["agentview", "robot0_eye_in_hand"],
                                  camera_heights=args.size, camera_widths=args.size,
-                                 camera_depths=True, camera_segmentations=None)
+                                 camera_depths=True, camera_segmentations="instance")
         print("environment created", flush=True)
         try:
             for name in names:

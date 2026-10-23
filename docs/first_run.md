@@ -1,9 +1,7 @@
-# First remote run
+# Remote experiment run
 
-Project: `/mnt/nvme1/drh/D_VLA`. Conda environment: `D_VLA` (`/mnt/nvme1/drh/miniforge3/envs/D_VLA`).
+Project: `/mnt/nvme1/drh/D_VLA`. Conda environment: `D_VLA` (`/mnt/nvme1/drh/miniforge3/envs/D_VLA`). Simulation variables: `LIBERO_CONFIG_PATH=/mnt/nvme1/drh/D_VLA/configs/libero`, `MUJOCO_GL=egl`, `PYOPENGL_PLATFORM=egl`.
 
-For simulation, set `LIBERO_CONFIG_PATH=/mnt/nvme1/drh/D_VLA/configs/libero`, `MUJOCO_GL=egl`, and `PYOPENGL_PLATFORM=egl`. Run `/mnt/nvme1/drh/miniforge3/envs/D_VLA/bin/python src/render_rgbd_episode.py --input data/raw/libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket_demo.hdf5 --output data/rendered/alphabet_soup_demo_0_full_rgbd.h5 --libero-root /home/drh/project/ECV-VLA/vendor/LIBERO --episode demo_0` from the project root.
+The original task HDF5 is `data/raw/libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket_demo.hdf5`. It has 50 demonstrations with 128×128 two-camera RGB and no depth. The 448×448 RGB-D re-renderings are in `data/rendered/alphabet_soup_demo_<n>_full_rgbd.h5`; they provide individual pre-contact frames for the active single-frame model. The entire video is not a model input.
 
-The resulting HDF5 stores the **entire 148-frame demonstration**, with synchronized RGB and metric depth for both cameras, plus camera matrices. It has no segmentation. Original HDF5 demonstrations are in `data/raw/libero_object/`; their stored RGB is 128×128 and they have no depth, so the saved simulator states are re-rendered at 448×448.
-
-Audit reports are in `data/audits/`; contact-derived candidate labels are in `data/events/`. The original single-frame segmented render is obsolete and is excluded from the input pipeline. No data is copied to the local computer.
+Contact probes and 47 provisional grasp labels are in `data/events/`. Segmentation may be rendered for offline object assignment and label audit, but is not a model feature. No experiment data is copied to the local computer.

@@ -1,24 +1,24 @@
-# D_VLA — LIBERO complete-video RGB-D grasp-region experiment
+# D_VLA — LIBERO RGB-D 3D grasp-region prediction
 
-Project root: `/mnt/nvme1/drh/D_VLA`. Conda environment: `D_VLA` at `/mnt/nvme1/drh/miniforge3/envs/D_VLA`. All original and generated data remain on the remote data disk.
+Project root: `/mnt/nvme1/drh/D_VLA`. Conda environment: `D_VLA` at `/mnt/nvme1/drh/miniforge3/envs/D_VLA`. All raw and derived data stay on the remote data disk.
 
-## Input contract
-Each training example uses the **entire expert demonstration**, in temporal order, with RGB video and synchronized metric depth for `agentview` and `robot0_eye_in_hand`. Every saved state is rendered at 448×448. There is no temporal clipping or frame subsampling. No segmentation is produced by the current rendering pipeline or supplied as training input. MuJoCo contact and object pose information are used only to derive supervision and audit grasp events. See `docs/input_contract.md`.
+## Active input and output
+Each training sample is a **single pre-contact RGB-D frame** from the two synchronized cameras. Frozen DINOv2 features and a 4,096-point 3D scene cloud feed a pointwise model, which outputs a grasp-region score for each point. Complete demonstrations are used to derive expert finger/object contact labels. Segmentation is offline supervision metadata only and never model input. See `docs/experiment_plan_v1.md` and `docs/input_contract.md`.
 
 ## Layout
-- `src/`: audit, rendering, event extraction, model and evaluation code.
-- `configs/`: protocol settings and environment provenance.
+- `src/`: active audits, rendering, labeling, sample preparation, models, training and evaluation.
+- `configs/`: fixed experiment settings and environment provenance.
 - `data/raw/`: original LIBERO HDF5 demonstrations, untouched.
 - `data/audits/`: dataset and state-restoration reports.
-- `data/rendered/`: complete synchronized RGB-D demonstration videos.
-- `data/events/`: contact-derived grasp event candidates.
-- `data/splits/`: episode and asset partitions.
-- `data/samples/`: training samples and caches.
-- `outputs/`: checkpoints, metrics and visualizations.
+- `data/rendered/`: aligned RGB-D renderings; complete sequences are a source for selecting individual frames.
+- `data/events/`: contact-derived grasp-event candidates and labels.
+- `data/splits/`: episode/asset splits.
+- `data/samples/`: point-cloud and DINO feature caches for single-frame training.
+- `outputs/`: active checkpoints and metrics; previous full-video trial is archived separately.
 - `logs/`: run logs.
-- `docs/`: input contract, protocol and review records.
+- `docs/`: protocol, status, and review records.
 
 ## Current stage
-Ten LIBERO-Object tasks (500 demonstrations) are downloaded on the server. Ten alphabet-soup demonstrations passed state-restoration checks. A complete RGB-D video render for `demo_0` is in progress or complete; see `docs/STATUS.md`. One grasp event is a numeric candidate requiring review. No model training or performance result is claimed yet.
+All 50 demonstrations of the first LIBERO-Object task have been rendered as complete RGB-D sequences to support frame selection. Contact candidates have been extracted for 47 of 50 demonstrations, pending manual review. The active pointwise model is being prepared and trained. See `docs/STATUS.md`.
 
-LIBERO source is `/home/drh/project/ECV-VLA/vendor/LIBERO` at commit `8f1084e3132a39270c3a13ebe37270a43ece2a01`. The experiment runs in the dedicated `D_VLA` conda environment.
+LIBERO source is `/home/drh/project/ECV-VLA/vendor/LIBERO` at commit `8f1084e3132a39270c3a13ebe37270a43ece2a01`.

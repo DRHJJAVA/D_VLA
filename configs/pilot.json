@@ -23,13 +23,12 @@
     "state_restore_10": true,
     "rgbd_alignment": false,
     "contact_review_30": false,
-    "small_sample_fit": false,
-    "complete_video_rgbd_render": true
+    "small_sample_fit": true,
+    "single_frame_samples": true
   },
   "training_input": {
-    "type": "complete_demonstration_rgbd_video",
-    "frame_policy": "all_saved_states_in_order",
-    "subsample": false,
+    "type": "single_frame_rgbd",
+    "frame_policy": "pre_contact_frames_plus_demonstration_start",
     "cameras": [
       "agentview",
       "robot0_eye_in_hand"
@@ -38,8 +37,12 @@
       "rgb",
       "depth_m"
     ],
-    "segmentation": false,
-    "depth_unit": "m",
-    "target_policy": "predict_grasp_region_from_full_demonstration"
-  }
+    "segmentation_as_model_input": false,
+    "points": 4096,
+    "target": "per_point_grasp_region_score",
+    "depth_unit": "m"
+  },
+  "dino_model": "vit_small_patch14_dinov2",
+  "dino_weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "pointnet2_implementation": "pure_pytorch_radius_grouping_fps_3nn"
 }
