@@ -53,7 +53,7 @@ def main():
         if target.exists():continue
         with np.load(path) as sample:
             xyz=sample['xyz'].astype(np.float32)
-        if xyz.shape!=(4096,3):raise ValueError(f'Unexpected sample shape: {path}')
+        if xyz.ndim != 2 or xyz.shape[1] != 3 or len(xyz) < 1024: raise ValueError(f'Unexpected sample shape: {path}: {xyz.shape}')
         idx1=fps(xyz,1024);xyz1=xyz[idx1]
         idx2=fps(xyz1,256);xyz2=xyz1[idx2]
         idx3=fps(xyz2,64);xyz3=xyz2[idx3]
