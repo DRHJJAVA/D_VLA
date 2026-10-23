@@ -29,3 +29,9 @@ Open gates remain unchanged: visual audit of 30 candidate contact events (at lea
 The 16k sample and graph partitions are complete (132/28/28 each); the model is waiting for shared GPU availability. A validation-only density audit found median target-point count 215.5 and a 10 mm contact-weighted sampling ceiling of 87.7% (vs 54.4% at 4k). The 10 mm primary evaluation tolerance, plus sigma sensitivity, was frozen before inspecting 16k model/test results; details in `docs/coverage_sampling_audit.md`.
 
 The corrected 4k reference at the frozen 10 mm tolerance has been computed on server CPU: test coverage at 10/20/30% target-point budgets is 0.2440/0.2530/0.2619 versus equal-budget random 0.0575/0.1079/0.1468, with an all-point sampling ceiling of 0.3333. This remains provisional and known-asset only.
+
+## Provisional 16,384-point result (2026-10-23)
+
+The resource-aware 16k pipeline completed normally: 132/28/28 samples and matching graphs, disjoint episode sets identical to the 4k run, eight epochs and a saved best checkpoint. The best validation-BCE epoch is 1. At the validation-frozen 10 mm tolerance and 20% target-point budget, test contact coverage is 0.5060 versus random 0.3207; 4k is 0.2530 versus random 0.1079. The 16k test all-point ceiling is 0.6607 versus 4k 0.3333, so most absolute gain comes from sampling density. Coverage divided by ceiling is approximately 0.76 for both. Detailed results and remaining protocol deviations are in `docs/heldout_16k_results.md`.
+
+The 30-event visual contact review, surface-alignment gate, plan-matched loss/checkpoint selection, three-seed baseline comparison, unseen-asset split, and prediction exports remain pending. These pilots do not establish verified grasp performance.
