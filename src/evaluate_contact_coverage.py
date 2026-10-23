@@ -22,7 +22,9 @@ BUDGETS = (0.1, 0.2, 0.3)
 def unique_contacts(event):
     points = np.asarray([x['position_object'] for side in ('left_contacts', 'right_contacts')
                          for x in event[side]], dtype=np.float32)
-    return np.unique(np.round(points / 0.003).astype(np.int32), axis=0).astype(np.float32) * 0.003
+    voxels = np.round(points / 0.003).astype(np.int32)
+    _, first = np.unique(voxels, axis=0, return_index=True)
+    return points[np.sort(first)]
 
 
 def visible_contacts(world, video, frame, tolerance):
@@ -56,10 +58,16 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--partition', choices=('val', 'test'), default='test')
     p.add_argument('--random-repeats', type=int, default=100)
+    p.add_argument('--sample-root', type=Path, default=ROOT/'data/samples/single_frame_pilot')
+    p.add_argument('--checkpoint', type=Path, default=ROOT/'outputs/alphabet_soup_pointnet2_heldout/best.pt')
+    p.add_argument('--output-dir', type=Path, default=ROOT/'outputs/alphabet_soup_pointnet2_heldout')
+    p.add_argument('--coverage-tolerance-m', type=float, default=None)
     a = p.parse_args()
+    if a.coverage_tolerance_m is not None and a.coverage_tolerance_m <= 0:
+        raise ValueError('Coverage tolerance must be positive')
     torch.set_num_threads(4)
-    sample_root = ROOT / 'data/samples/single_frame_pilot'
-    checkpoint = torch.load(ROOT / 'outputs/alphabet_soup_pointnet2_heldout/best.pt',
+    sample_root = a.sample_root
+    checkpoint = torch.load(a.checkpoint,
                             map_location='cpu', weights_only=False)
     model = PointNet2Grasp()
     model.load_state_dict(checkpoint['model'])
@@ -99,20 +107,22 @@ def main():
         with h5py.File(ROOT / 'data/rendered' / f'alphabet_soup_{episode}_full_rgbd.h5') as video:
             visible = visible_contacts(contact_world, video, frame, max(0.01, 2 * sigma))
         visible_world = contact_world[visible]
+        tolerance = sigma if a.coverage_tolerance_m is None else a.coverage_tolerance_m
         row = {'episode': episode, 'frame': frame, 'object_points': len(object_points),
                'contacts': len(contact_world), 'visible_contacts': len(visible_world),
                'visible_fraction': float(np.mean(visible)), 'sigma_m': sigma,
                'visibility_depth_tolerance_m': max(0.01, 2 * sigma),
-               'sampling_ceiling': coverage(object_points, visible_world, sigma)}
+               'coverage_tolerance_m': tolerance,
+               'sampling_ceiling': coverage(object_points, visible_world, tolerance)}
         for q in BUDGETS:
             key = str(int(q * 100))
             n = max(1, math.ceil(q * len(object_points)))
             best = np.argsort(-object_scores, kind='stable')[:n]
-            row[f'coverage_at_{key}'] = coverage(object_points[best], visible_world, sigma)
+            row[f'coverage_at_{key}'] = coverage(object_points[best], visible_world, tolerance)
             if len(visible_world):
                 row[f'random_at_{key}'] = float(np.mean([
                     coverage(object_points[rng.choice(len(object_points), size=n, replace=False)],
-                             visible_world, sigma) for _ in range(a.random_repeats)]))
+                             visible_world, tolerance) for _ in range(a.random_repeats)]))
             else:
                 row[f'random_at_{key}'] = None
         rows.append(row)
@@ -127,7 +137,8 @@ def main():
     summary = {'partition': a.partition, 'best_epoch': checkpoint['epoch'],
                'evaluation': 'held-out event contacts transformed to observation-frame object pose',
                'visibility': 'two-camera depth agreement; tolerance max(1 cm, 2 sigma)',
-               'coverage_tolerance': 'sample sigma', 'budget_denominator': 'offline target-object points',
+               'coverage_tolerance': 'sample sigma' if a.coverage_tolerance_m is None else a.coverage_tolerance_m,
+               'budget_denominator': 'offline target-object points',
                'object_ids_as_model_input': False, 'label_quality': 'provisional_unreviewed',
                'samples': len(rows), 'episodes': len(episodes),
                'samples_with_visible_contacts': sum(r['visible_contacts'] > 0 for r in rows),
@@ -136,7 +147,9 @@ def main():
                                    if any(v[key] is not None for v in episodes.values()) else None
                                    for key in next(iter(episodes.values()))},
                'per_episode': episodes, 'per_sample': rows}
-    out = ROOT / 'outputs/alphabet_soup_pointnet2_heldout' / f'contact_coverage_{a.partition}.json'
+    a.output_dir.mkdir(parents=True, exist_ok=True)
+    suffix = 'sigma' if a.coverage_tolerance_m is None else f'{a.coverage_tolerance_m:.3f}m'
+    out = a.output_dir / f'contact_coverage_{a.partition}_{suffix}.json'
     out.write_text(json.dumps(summary, indent=2) + '\n')
     print(json.dumps({key: summary[key] for key in ('partition','samples','episodes',
         'samples_with_visible_contacts','mean_visible_fraction','episode_metrics')}, indent=2))
