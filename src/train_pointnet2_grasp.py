@@ -47,6 +47,10 @@ def balanced_loss(logits,target,valid):
     positive=valid&(target>0.05)
     negative=valid&~positive
     raw=F.binary_cross_entropy_with_logits(logits,target,reduction='none')
+    if not positive.any():
+        return raw[negative].mean()
+    if not negative.any():
+        return raw[positive].mean()
     return 0.5*(raw[positive].mean()+raw[negative].mean())
 
 
