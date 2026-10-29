@@ -1,0 +1,76 @@
+{
+  "selection": [
+    {
+      "frame": 43,
+      "roles": [
+        "闭合前非持物对照"
+      ]
+    },
+    {
+      "frame": 45,
+      "roles": [
+        "闭合前非持物对照"
+      ]
+    },
+    {
+      "frame": 48,
+      "roles": [
+        "闭合前非持物对照"
+      ]
+    },
+    {
+      "frame": 50,
+      "roles": [
+        "闭合起点"
+      ]
+    },
+    {
+      "frame": 62,
+      "roles": [
+        "首次严格抬升25mm"
+      ]
+    },
+    {
+      "frame": 64,
+      "roles": [
+        "尝试内全部区域至少3格"
+      ]
+    },
+    {
+      "frame": 68,
+      "roles": [
+        "尝试内全部区域至少3格"
+      ]
+    },
+    {
+      "frame": 70,
+      "roles": [
+        "尝试内全部区域至少3格"
+      ]
+    },
+    {
+      "frame": 71,
+      "roles": [
+        "尝试内全部区域至少3格"
+      ]
+    },
+    {
+      "frame": 72,
+      "roles": [
+        "尝试内全部区域至少3格"
+      ]
+    },
+    {
+      "frame": 113,
+      "roles": [
+        "尝试末帧"
+      ]
+    }
+  ],
+  "episode": "tomato_sauce_demo_4",
+  "split": "old_val",
+  "network": null,
+  "loss": null,
+  "training": false,
+  "zoom": "all nonempty fixed bbox margin24 min96 scale3 nearest"
+}

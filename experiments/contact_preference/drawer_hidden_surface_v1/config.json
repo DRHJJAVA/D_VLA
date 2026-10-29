@@ -1,0 +1,42 @@
+{
+  "time": "2026-10-25T20:03:13+08:00",
+  "case": "drawer_demo_0",
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "source_frame": 0,
+  "frames": [
+    44,
+    60,
+    70,
+    88,
+    100,
+    120
+  ],
+  "all_clip_frames": 177,
+  "old_source_count": 319,
+  "seed_neighborhood_m": 0.08,
+  "seed_grid_px": 3,
+  "seed_cap": 400,
+  "tracker": "frozen CoTracker3 same existing weights",
+  "seed": 2026,
+  "visibility": 0.9,
+  "robot_depth_margin_m": 0.002,
+  "correspondence_residual_m": 0.003,
+  "minimum_inliers": 8,
+  "minimum_inlier_ratio": 0.6,
+  "maximum_median_inlier_m": 0.002,
+  "heldout_fraction": 0.2,
+  "heldout_minimum": 3,
+  "heldout_p95_m": 0.006,
+  "heldout_median_m": 0.003,
+  "loo_max_point_shift_m": 0.002,
+  "motion_static_resolution_m": 0.005,
+  "motion_static_resolution_role": "diagnostic competing static/rigid explanations; not contact gate",
+  "no_lift_gate": true,
+  "no_force_fit": true,
+  "scoring_training": false,
+  "source_widening_role": "more motion anchors on same local part, not enlarge contact surface",
+  "scope": "first audit previous losses then existing/dense frozen visual correspondence and prior real surface propagation; no invented surface"
+}

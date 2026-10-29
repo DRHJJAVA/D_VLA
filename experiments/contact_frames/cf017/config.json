@@ -1,0 +1,46 @@
+{
+  "id": "CF017",
+  "time": "2026-10-24T21:32:37+08:00",
+  "cases": [
+    {
+      "id": "two_objects_demo_0",
+      "suite": "libero_10",
+      "name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_demo.hdf5",
+      "display": "双物体搬运 · 官方demo0"
+    },
+    {
+      "id": "drawer_demo_0",
+      "suite": "libero_90",
+      "name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_demo.hdf5",
+      "display": "开抽屉 · 官方demo0"
+    },
+    {
+      "id": "stove_demo_0",
+      "suite": "libero_90",
+      "name": "KITCHEN_SCENE9_turn_on_the_stove_demo.hdf5",
+      "display": "操作炉灶开关 · 官方demo0"
+    }
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "model": "CF014 with_motion last600 frozen",
+  "retrain": false,
+  "thresholds": [
+    0.2,
+    0.8
+  ],
+  "episode_selection": "demo_0 fixed before reading predictions; no picking good outcomes",
+  "reserved_demos_access": false,
+  "human_training_use": false,
+  "semantics": "gripper-object contact, including contact during failed manipulation; task success not required",
+  "scope": "new-task qualitative review plus existing demo1 low-score diagnosis",
+  "train_episodes": [],
+  "review_episodes": [
+    "two_objects_demo_0",
+    "drawer_demo_0",
+    "stove_demo_0"
+  ]
+}

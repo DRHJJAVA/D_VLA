@@ -1,0 +1,43 @@
+{
+  "time": "2026-10-25T20:21:42+08:00",
+  "case": "drawer_demo_0",
+  "source_frames": [
+    20,
+    30,
+    40
+  ],
+  "target_frames": [
+    44,
+    60,
+    70,
+    88,
+    100,
+    120
+  ],
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "source_role": "before original candidate44; not manual contact labels",
+  "source_radius_m": 0.08,
+  "seed_grid_px": 2,
+  "seed_cap_per_camera": 600,
+  "seed": 2026,
+  "heldout_modulo": 5,
+  "visibility": 0.9,
+  "robot_margin_m": 0.002,
+  "ransac_m": 0.003,
+  "min_inliers": 8,
+  "median_fit_m": 0.002,
+  "heldout_min": 3,
+  "heldout_median_m": 0.003,
+  "heldout_p95_m": 0.006,
+  "loo_max_m": 0.002,
+  "tri_max_edge_px": 6,
+  "near_visual_finger_m": 0.003,
+  "finger_occlusion_depth_m": 0.001,
+  "actual_depth_agreement_m": 0.003,
+  "free_space_conflict_m": 0.006,
+  "scoring_training": false,
+  "no_force_fit": true
+}

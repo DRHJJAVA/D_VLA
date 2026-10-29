@@ -1,0 +1,12 @@
+{
+  "train_source": "iter_022",
+  "val_source": "iter_023",
+  "window": "prefix_until_first_quality_or_time_failure",
+  "loo_min_remaining": 7,
+  "loo_second_axis_min_m": 0.003,
+  "loo_min_valid_fits": 7,
+  "sensitivity_reference_m": 0.002,
+  "region_rules": "unchanged_012",
+  "scoring_training": false,
+  "targets_created": false
+}

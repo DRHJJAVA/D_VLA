@@ -1,0 +1,195 @@
+<!doctype html><html lang="zh-CN"><head><base href="../"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LCJP003 | Network design and DINOv3</title><style>body{margin:0;background:#f1f4f7;color:#243648;font:17px/1.85 Arial,"Noto Sans CJK SC",sans-serif}header{padding:32px max(5vw,24px);background:#173348;color:white}header h1{font-size:30px;margin:0 0 10px}nav a{color:#a9d9ff;margin-right:22px}main{max-width:1400px;margin:auto;padding:22px}article,details{background:white;border:1px solid #dbe2e9;border-radius:12px;padding:30px;margin:18px 0}h3{font-size:28px}h4{font-size:22px;margin-top:40px}table{border-collapse:collapse;width:100%;font-size:16px}td,th{border:1px solid #d9e2ea;padding:12px;text-align:left}th{background:#edf4f8}img{display:block;width:100%;height:auto;margin:18px 0}a{color:#086ea4}strong{color:#173348}header strong{color:white}summary{cursor:pointer;font-size:20px}.hint{color:#536878}.dl{display:inline-block;padding:8px 16px;border-radius:7px;background:#eef7ff;margin:8px 14px 8px 0}</style></head><body><header><h1>LCJP003 · 网络设计与 DINOv3 评估</h1><p>展开网络内部的层、特征尺寸、评分通路与动作监督</p><nav><a href="#layers">逐层网络设计</a><a href="#dino">DINOv3 评估</a><a href="#overview">原总体流程</a></nav></header><main><p><a class="dl" href="LCJP003_plan_with_figures.zip">下载完整方案与7张图片</a><a class="dl" href="LCJP003_%E7%8A%B6%E6%80%81%E6%9D%A1%E4%BB%B6%E4%B8%89%E7%BB%B4%E9%83%A8%E4%BD%8D%E8%AF%84%E5%88%86%E4%B8%8EDriftingVLA%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%A1%88.md">查看 Markdown 文件</a></p><p class="hint">图片可点击打开原尺寸。第3.6节展开实际网络结构，第12节列出DINOv3接入位置、依据与对照任务。</p><article id="layers"><h3>3.6 逐层网络结构：特征尺寸与实际连接</h3>
+<p>B 是批量，T=16 是历史长度，N≤2048 是当前真实点数，O 是候选对象数，K 是局部部位组数，L 是指令 token 数，d_a 是数据动作维数。所有变长维度另带有效性掩码。</p>
+<p><strong>读图顺序：图5得到逐点特征 → 图6算出评分 → 图7用评分影响动作。</strong></p>
+<h4>A. 三维编码器内部</h4>
+<p><a href="assets/lcjp003_diagrams/05_encoder_layers.png" target="_blank"><img alt="图 5：三维视觉编码器逐层结构" src="assets/lcjp003_diagrams/05_encoder_layers.png" /></a></p>
+<table>
+<thead>
+<tr>
+<th>层</th>
+<th>实际运算</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>冻结视觉骨干</td>
+<td>原版取 SmolVLM2 压缩前空间特征；保留 resize、padding 和像素映射</td>
+<td>每个网格位置768维</td>
+</tr>
+<tr>
+<td>逐点适配</td>
+<td>按真实点的像素位置取特征，双视角按可见性融合；Linear(768,128)＋LayerNorm＋GELU</td>
+<td>B×T×N×128</td>
+</tr>
+<tr>
+<td>SA1</td>
+<td>候选内部采样中心，聚合“相对XYZ 3维＋特征128维”；MLP 131→128→128→256，邻域 max pooling</td>
+<td>典型 B×T×512×256</td>
+</tr>
+<tr>
+<td>SA2</td>
+<td>同样操作；MLP 259→256→256→512</td>
+<td>典型 B×T×128×512</td>
+</tr>
+<tr>
+<td>FP2</td>
+<td>几何插值回 SA1 的点，拼接 SA1 跳接特征；MLP 768→256→256</td>
+<td>B×T×512×256</td>
+</tr>
+<tr>
+<td>FP1</td>
+<td>插值回输入点，拼接原来的128维特征；MLP 384→256→256</td>
+<td>B×T×N×256</td>
+</tr>
+</tbody>
+</table>
+<p>SA 是“减少点数、扩大局部感受范围”，FP 是“把学到的形状信息传回每个输入点”。各候选分别建立邻域，共享网络参数。512/128是典型采样预算；候选数超过预算时提高相应预算并记录，保证有效候选有代表点。首版邻域最多32点，归一化形状半径为0.1/0.2，不足点用掩码汇聚，不跨候选借邻居。这些设置只组织局部几何，不生成接触标签。</p>
+<p>新增 MLP 的隐藏层采用 Linear＋LayerNorm＋GELU，标量评分输出层不加 sigmoid。PointNet++ 邻域可以重叠；评分使用的局部组则给每个点唯一归属，保证 α×β 的定义明确。</p>
+<h4>B. 机器人关系、历史与评分网络内部</h4>
+<p><a href="assets/lcjp003_diagrams/06_scoring_layers.png" target="_blank"><img alt="图 6：状态条件评分网络逐层结构" src="assets/lcjp003_diagrams/06_scoring_layers.png" /></a></p>
+<table>
+<thead>
+<tr>
+<th>分支</th>
+<th>输入与层结构</th>
+<th>输出与用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>两指关系</td>
+<td>每点16维 → MLP 16→64→128</td>
+<td>B×N×128，描述点与实际夹爪的关系</td>
+</tr>
+<tr>
+<td>机器人状态</td>
+<td>实际状态D_s → MLP D_s→128→256</td>
+<td>当前状态256维，状态字段随数据适配器锁定</td>
+</tr>
+<tr>
+<td>指令</td>
+<td>冻结文本分支仅输入指令；960维 token 按有效位置求均值，再投影到256</td>
+<td>指令条件256维</td>
+</tr>
+<tr>
+<td>对象历史</td>
+<td>每时刻对象点特征均值256＋状态256 → Linear(512,256)，加入时间间隔编码；2层因果 Transformer</td>
+<td>每层4头、隐藏256、FFN1024；历史为 B×O×16×256，取当前位置输出</td>
+</tr>
+<tr>
+<td>条件查询</td>
+<td>指令256＋当前状态256＋该对象历史256 → MLP 768→256→256</td>
+<td>每对象一个条件向量 q</td>
+</tr>
+<tr>
+<td>组内评分</td>
+<td>点特征256＋关系128＋对应对象q256 → MLP 640→256→1；组内 masked softmax</td>
+<td>点权重 α</td>
+</tr>
+<tr>
+<td>部位构造</td>
+<td>按 α 汇聚局部特征与几何；Linear(270,256)＋LayerNorm</td>
+<td>部位 token z：B×K×256</td>
+</tr>
+<tr>
+<td>组间评分</td>
+<td>z256＋对应对象q256 → MLP 512→128→1；组间 masked softmax</td>
+<td>部位权重 β</td>
+</tr>
+<tr>
+<td>展示输出</td>
+<td>每点所属组的 β 乘该点 α</td>
+<td>s_i=β_k α_ki，再按页面规则排名</td>
+</tr>
+</tbody>
+</table>
+<p><strong>16维关系向量：</strong>点在夹爪、左指、右指坐标系的位置各3维，夹爪系观测法向3维，夹爪开口1维，观测对象尺度1维，法向有效标记1维，双视角共同观测标记1维。法向缺失时置零并保留无效标记。这些量来自 RGB-D、标定和机器人状态，不由距离阈值转为“已接触”。</p>
+<p><strong>270维部位向量：</strong>加权点特征256维，基座系中心3维，夹爪系中心3维，米制位置协方差6个独立分量，法向有效比例和双视角共同观测比例2维。真实几何字段也保留在输出记录中。</p>
+<p>对象历史只用过去和当前的候选关联；关联中断后重建并打掩码，不能把每帧候选序号当作稳定身份。历史只进入评分查询，动作专家不能直接读取未经部位选择的对象历史。文本分支也只输入指令，避免已经融合全图信息的 token 绕开评分。</p>
+<h4>C. 动作专家内部与反向学习路径</h4>
+<p><a href="assets/lcjp003_diagrams/07_action_layers.png" target="_blank"><img alt="图 7：动作专家、部位权重与训练梯度" src="assets/lcjp003_diagrams/07_action_layers.png" /></a></p>
+<p>动作专家采用 <strong>16层、隐藏720维</strong>：自注意力块A与交叉注意力块B交替，[A→B]×8。每块都有归一化、注意力残差和前馈残差；SwiGLU前馈宽度720→2048→720。注意力有15个Query头、5个KV头、每头64维，所以内部Query投影总宽度960，残差主干仍为720维。该骨架按 SmolVLA 配置展开。<a href="https://huggingface.co/lerobot/smolvla_base/blob/main/config.json">SmolVLA配置</a>、<a href="https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/blob/main/config.json">骨干配置</a>、<a href="https://github.com/huggingface/lerobot/blob/main/src/lerobot/policies/smolvla/smolvlm_with_expert.py">官方动作专家构造</a></p>
+<ul>
+<li><strong>动作端：</strong>当前状态投影成一个720维token；16步噪声各投影成720维，并加入动作位置编码。Drifting 不使用原 flow matching 的迭代去噪时间步。</li>
+<li><strong>条件端：</strong>纯文本从960投影到720，部位从256投影到720。新增条件投影及K/V适配与动作专家一起训练。</li>
+<li><strong>A块：</strong>动作与状态token自注意力，协调动作块内部各步。</li>
+<li><strong>B块：</strong>动作查询读取拼接的“纯文本＋部位”。文本列偏置为0，部位列为 log β，无效列屏蔽，做一次softmax。</li>
+<li><strong>输出：</strong>归一化后 Linear(720,d_a)，得到 B×16×d_a，再按训练集统计还原单位。</li>
+<li><strong>反向训练：</strong>动作损失通过注意力中的 log β 和部位内容，更新 β、α、三维适配器、关系编码、历史编码；冻结骨干不更新。</li>
+</ul>
+<p>β只作为读取先验，不再乘一次token或坐标。动作实际注意力还包括Query-Key匹配与文本竞争，展示的α×β不能等同于动作最终贡献比例。</p>
+<p>均匀对照也保留同一接口，只固定α=1/组内有效点数、β=1/有效组数。梯度检查选至少两个有效组、每组至少两个点，避免把单元素softmax必然为零的梯度误判为链路故障。</p></article><article id="dino"><h2>12. DINOv3 是否有帮助，以及放在网络哪里</h2>
+<p><strong>建议优先测试冻结 DINOv3-S+/16 替换三维分支的空间特征，保留 SmolVLA 的纯语言分支。</strong>它有望改善部位描述与对应，不替代状态条件评分，也不要求另外训练接触判断网络。</p>
+<h3>12.1 为什么值得试</h3>
+<p>本任务需要区分“两个视角下哪个位置是同一处”“换了颜色和尺寸后哪个局部结构相似”。DINOv3 的密集特征与这些需求相符；其 Gram anchoring 针对长时间预训练中的密集特征退化。将它用于本项目是基于能力匹配的推断，实际收益由动作对照决定。<a href="https://ai.meta.com/research/publications/dinov3/">官方研究介绍</a></p>
+<table>
+<thead>
+<tr>
+<th>骨干</th>
+<th style="text-align: right;">NAVI：跨视角对应</th>
+<th style="text-align: right;">SPair：同类实例对应</th>
+<th style="text-align: right;">DAVIS：视频跟踪</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DINOv2-S</td>
+<td style="text-align: right;">53.4</td>
+<td style="text-align: right;">51.6</td>
+<td style="text-align: right;">73.6</td>
+</tr>
+<tr>
+<td>DINOv3-S</td>
+<td style="text-align: right;">56.3</td>
+<td style="text-align: right;">50.4</td>
+<td style="text-align: right;">72.7</td>
+</tr>
+<tr>
+<td>DINOv3-S+</td>
+<td style="text-align: right;">57.1</td>
+<td style="text-align: right;">55.2</td>
+<td style="text-align: right;">75.5</td>
+</tr>
+</tbody>
+</table>
+<p>三项均越高越好。v3-S在后两项没有超过v2-S，所以不能只按版本号选择；S+更值得作为本次候选。S+的容量也更大，不能把差异全部归因于训练方法。以上是论文公开基准，不是LIBERO机器人成功率。<a href="https://arxiv.org/html/2508.10104v1#S7.T14">原论文Table14</a></p>
+<h3>12.2 接入位置与代价</h3>
+<p>图5标出了替换位置：DINOv3-S+ 的384维patch特征，经可训练Linear(384,128)接入同一RGB-D映射与PointNet++；原版是SmolVLM2的768维特征接Linear(768,128)。其余评分、历史、动作专家及Drifting目标一致。基础DINOv3不负责理解指令，视觉与指令的任务关联由后续联合训练学习。<a href="https://github.com/facebookresearch/dinov3/blob/main/MODEL_CARD.md">官方模型卡</a></p>
+<p>先不堆两个视觉编码器。只有替换对照显示二者互补，再增加融合版本；融合视觉内容仍经过部位选择。</p>
+<p>S+有29M参数，论文给出的单图256/512分辨率算量约16/79 GFLOPs；B版有86M参数，相应约47/216 GFLOPs。这里的算量不能代替本机时延。16帧滑窗可缓存冻结骨干的历史输出，每次补新帧；会随训练变化的适配器输出不能跨优化器更新复用。<a href="https://github.com/facebookresearch/dinov3">官方模型列表</a>、<a href="https://arxiv.org/html/2508.10104v1#S7.F16">原论文Fig.16</a></p>
+<h3>12.3 小规模对照任务与采用标准</h3>
+<table>
+<thead>
+<tr>
+<th>任务</th>
+<th>怎么做</th>
+<th>用什么判断</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>局部对应</td>
+<td>固定训练/开发视频、图像分辨率、点数和候选，对比原空间特征、DINOv2-S、DINOv3-S+</td>
+<td>用有效RGB-D投影检验双视角匹配误差；小把手/开关、稳定表面、遮挡分别统计</td>
+</tr>
+<tr>
+<td>等预算动作训练</td>
+<td>后续网络、优化器更新数、数据划分一致，条件允许用3个随机种子</td>
+<td>开发动作误差、闭环成功数/总数、推理时延和峰值显存</td>
+</tr>
+<tr>
+<td>评分干预</td>
+<td>按原方案均匀化、置乱或局部干预评分</td>
+<td>学到的权重是否相对无选择/错误选择稳定改善动作</td>
+</tr>
+<tr>
+<td>后续同类泛化</td>
+<td>独立LIBERO-Pro评测，区分新实例、外观和尺寸变化</td>
+<td>闭环表现；同资产重复轨迹不算新形状验证</td>
+</tr>
+</tbody>
+</table>
+<p>采用条件：相同动作训练预算下收益能跨种子复现，并满足实测时延和显存预算。只有特征匹配或热图改善，先保留对照结果，不直接替换主方案；测试集不参与选择。</p>
+<p>要检查的两项限制：patch16在256×256图像上只有16×16网格，插值不能创造小开关细节；更换骨干也不能修复深度投影错误、评分被绕过、监督目标允许退化或动作数据单一。v001的接触潜变量趋零不能仅归因于缺少DINOv3。</p>
+<p>官方有现成预训练权重 facebook/dinov3-vits16plus-pretrain-lvd1689m，不需要自己从头预训练。实际获取按官方访问条件核验；此前401只说明当时获取未成功。<a href="https://huggingface.co/facebook/dinov3-vits16plus-pretrain-lvd1689m">官方权重页</a></p></article><details id="overview"><summary>查看原来的4张总体流程图</summary><h3>Overall network</h3><a href="assets/lcjp003_diagrams/01_network.png" target="_blank"><img src="assets/lcjp003_diagrams/01_network.png" alt="Overall network"></a><h3>Part selection</h3><a href="assets/lcjp003_diagrams/02_part_selection.png" target="_blank"><img src="assets/lcjp003_diagrams/02_part_selection.png" alt="Part selection"></a><h3>Joint training</h3><a href="assets/lcjp003_diagrams/03_joint_training.png" target="_blank"><img src="assets/lcjp003_diagrams/03_joint_training.png" alt="Joint training"></a><h3>Inference</h3><a href="assets/lcjp003_diagrams/04_inference.png" target="_blank"><img src="assets/lcjp003_diagrams/04_inference.png" alt="Inference"></a></details></main></body></html>

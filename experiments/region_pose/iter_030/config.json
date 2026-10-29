@@ -1,0 +1,24 @@
+{
+  "iteration": "030",
+  "seed": 2026,
+  "loss_tolerance": 2e-06,
+  "gradient_tolerance": 2e-06,
+  "rank_coefficient": 0.1,
+  "negative_tail_fraction": 0.01,
+  "offsets": [
+    15,
+    10,
+    5,
+    1
+  ],
+  "budgets": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "scope": "frozen train-only diagnostics",
+  "no_training": true
+}

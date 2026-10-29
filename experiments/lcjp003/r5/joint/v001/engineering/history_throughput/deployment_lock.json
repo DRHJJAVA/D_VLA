@@ -1,0 +1,21 @@
+{
+  "resume_step": 637,
+  "resume_checkpoint_sha256": "59ba3de28ae888e2329e304b737c099e74dda1475877afb1265918e48f7111d5",
+  "inherited_source_lock_sha256": "2d0ffb150121f672d0a67d80b3a4d8667bc209f2f77eac2ec3b38bd9b9508181",
+  "config_sha256": "63844d9b0ff5a40a1551074c1a31c27ccbdf240131060e2f36363b54f718c48b",
+  "history_batch_size": 8,
+  "benchmark_medians_seconds": {
+    "0": 6.292653832118958,
+    "8": 5.343509569298476,
+    "16": 5.4769101643469185
+  },
+  "paired_speedup": 1.1776256317147553,
+  "time": 1793240822.1708488,
+  "files": {
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/r5/joint/v001/engineering/history_throughput/optimized_history.py": "b8d38f31c4fa25ea08d0444401a3994078141644983765d34451e5af37b4a957",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/r5/joint/v001/engineering/history_throughput/resume_optimized.py": "854d9cd19cb652ecb5d35a3d4d13d6599f9c948e1bf2ad4666563781a90fcca1",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/r5/joint/v001/engineering/history_throughput/qualification_first.json": "6ecca296582d64af99241b07a3ea8afd09e2958866a50f42423cb80152a4618f",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/r5/joint/v001/engineering/history_throughput/results.json": "9ff0cda4c1cfb817e5b594c6114421e5ba824b75e043a5a62921d9b79d89ef9b",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/r5/joint/v001/engineering/history_throughput/throughput.json": "b4c717477ce064d30599d915f87789735248313b5041f6b4fecdfc3ca601617e"
+  }
+}

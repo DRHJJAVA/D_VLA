@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "key": "porcelain_mug_demo_9_attempt1_query36",
+      "title": "瓷杯搬运",
+      "asset": "porcelain_mug",
+      "demo": "demo_9",
+      "frames": [
+        55,
+        57,
+        60,
+        65,
+        66
+      ]
+    },
+    {
+      "key": "tomato_sauce_demo_7_attempt1_query48",
+      "title": "番茄酱罐搬运",
+      "asset": "tomato_sauce",
+      "demo": "demo_7",
+      "frames": [
+        68,
+        70,
+        73,
+        78
+      ]
+    },
+    {
+      "key": "white_yellow_mug_demo_4_attempt1_query40",
+      "title": "白黄杯搬运",
+      "asset": "white_yellow_mug",
+      "demo": "demo_4",
+      "frames": [
+        66,
+        68,
+        71
+      ]
+    }
+  ],
+  "status": "pre_registered",
+  "display": {
+    "green": "prior multi-frame supported observed finite-finger-volume source",
+    "magenta": "other actually observed finite-finger-volume source",
+    "gray": "sampled current RGB-D hand-neighborhood cloud",
+    "not_contact_truth": true,
+    "points_per_camera_max": 1500
+  }
+}

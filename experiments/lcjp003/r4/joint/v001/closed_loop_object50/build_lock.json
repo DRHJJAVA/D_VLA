@@ -1,0 +1,8 @@
+{
+  "experiments/lcjp003/r4/joint/v001/closed_loop_object50/adapter.py": "8604c3a520a119a4372aad3ddeb3727c978553cc3a77ae1b293c9693cccb2677",
+  "experiments/lcjp003/r4/joint/v001/closed_loop_object50/executor.py": "f3a242268414480f133f627f85257721c0ed8d13eb6ecb42351b622da44ae6e5",
+  "experiments/lcjp003/r4/joint/v001/closed_loop_object50/protocol.json": "e650ea6f89505a3279de6a78696e5e8fbb72b782e4442872f0f82ccf240c65dd",
+  "experiments/lcjp003/p1/v001/closed_loop/adapters.py": "dd9e6eb9b3dd6f8b9c09428e95cfb2bd1611acf8eebb7803183e1343c601365a",
+  "src/v3/stage2_extract_dino.py": "d2023be140ff1e458d7027b1468ab0281b02d563678b14d67ddd195fcd61c8c7",
+  "experiments/lcjp003/r3/joint/v001/src/geometry.py": "bd12b2541a618502fb20e3fd9d822c05f8e477ef61248eb7e781ac2819d9bedd"
+}

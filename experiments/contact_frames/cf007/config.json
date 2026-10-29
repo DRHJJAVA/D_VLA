@@ -1,0 +1,43 @@
+{
+  "train_episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "new_preparations": [
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "fixed_review_episodes": [
+    "white_yellow_mug_demo_5",
+    "alphabet_soup_demo_0",
+    "porcelain_mug_demo_9",
+    "tomato_sauce_demo_3",
+    "alphabet_soup_demo_1"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "arms": [
+    "all_train_frames"
+  ],
+  "steps": 600,
+  "batch_size": 16,
+  "window": 9,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "auxiliary_weight": 0.2,
+  "selection": "same original20 seed2026 permutation next3; no action-type quotas/no output-based replacement",
+  "training_labels": "unchanged automatic labels; human ranges excluded",
+  "checkpoint_selection": "last600 only",
+  "control": "cf005/all_train_frames frozen last600",
+  "change": "only auxiliary target first three channels change from world surface-center displacement to measured-hand-frame surface-center displacement, normalized by the same 0.01m; targets/weights/dynvalid, states, inputs, initialization, schedule and network unchanged",
+  "training_split": "four entire training episodes; former internal audit frames are now training and never reported as held-out",
+  "id": "CF007",
+  "time": "2026-10-24T15:03:45+08:00",
+  "human_feedback_training": false
+}

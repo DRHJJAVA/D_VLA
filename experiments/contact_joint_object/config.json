@@ -1,0 +1,42 @@
+{
+  "seed": 2026,
+  "epochs": 30,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "batch_episodes": 8,
+  "windows_per_episode": 4,
+  "window_frames": 16,
+  "points": 2048,
+  "render_size": 256,
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "ema": 0.99,
+  "status": "implementation",
+  "display": {
+    "selection": "rank_top_fraction",
+    "fraction": 0.8,
+    "bands": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "colors": [
+      "#313695",
+      "#74add1",
+      "#fee090",
+      "#f46d43",
+      "#a50026"
+    ],
+    "unknown": "#777777",
+    "scores_uncalibrated": true
+  },
+  "heldout_content_read": false,
+  "visual_backbone": "dinov2_vits14_frozen",
+  "visual_weights": "/home/drh/.cache/torch/hub/checkpoints/dinov2_vits14_pretrain.pth",
+  "visual_weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+}

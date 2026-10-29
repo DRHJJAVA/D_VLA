@@ -1,0 +1,27 @@
+{
+  "time": 1793193894.549631,
+  "files": {
+    "experiments/lcjp003/r4/joint/v001/src/objective.py": "e10fedb4da591fe15d9a0761ae5dca58ab9e039c063c74cfcc54c6d53acf80aa",
+    "experiments/lcjp003/r4/joint/v001/src/runtime.py": "c363f3a19b73eb15d5ed1cff4a8bea6dbc56e8d5005567a896be4c21bd342377",
+    "experiments/lcjp003/r4/joint/v001/src/network.py": "845cfff90c6d2f6385359b46a8380d6f603ebd18e6d1c050c2f348ff3502f8a2",
+    "experiments/lcjp003/r4/joint/v001/src/train.py": "98bbb8243f6b10320d4b81177d2d8719bf1fed2bbc40b5e08c6fbed1492f353b",
+    "experiments/lcjp003/r4/joint/v001/src/primitives.py": "c21b5091db94e67d039d598b37c9fa8281bb9fa0485712d39c4b19fb8f044aef",
+    "experiments/lcjp003/r4/joint/v001/src/data.py": "d5043ef098774a3d05dcec9e51f14fa8f01ecda69c1c667f740a957ae663707f",
+    "experiments/lcjp003/r4/joint/v001/src/check_data.py": "6acf7fa49c9b073f1e3bafd30db483458617e0982c4828ef8a993debc2fb4729",
+    "experiments/lcjp003/r4/joint/v001/src/drifting.py": "286763c6ffda55e594b6812f1b0b57ecb95ef3a5a90485644d2edec83d9a0466",
+    "experiments/lcjp003/r4/joint/v001/src/validate.py": "030647237e490a6d2319b925cd46dc20e4fad65e36dce5894d4ed6df9ce9e6dc",
+    "experiments/lcjp003/r4/joint/v001/config.json": "b8f1cd13a83c3f1071a81b702c112dfd5be914671be64ecb5a168369d100b467",
+    "experiments/lcjp003/r4/joint/v001/episodes.json": "af3a10f0441993b9a8afa2225814a7f7ad993974a2ac33f8b0a8cd51a4ce103d",
+    "experiments/lcjp003/r4/joint/v001/normalization.json": "80f7c5add709491f4738c5541912a5b098908b684a94054957ee68e764d055b0",
+    "experiments/lcjp003/r4/joint/v001/input_manifest.json": "8f10ed4b042d4d330bc3bca8702cdf7de418ee173deed75e495a88f5ded8ed06",
+    "experiments/lcjp003/r4/joint/v001/evaluation_windows.json": "aef6ca7e1d1b7eecd796e3b2ccb5440da570e5906ae1aa71a01f34a30aeb63e3",
+    "experiments/lcjp003/r4/joint/v001/sampling_schedule.json": "1237b305cce595399f3710bc17099be1b7fa7f59a6b32a048586eb65cd826e32",
+    "experiments/lcjp003/r4/joint/v001/supervision_protocol.json": "2c0bc493f89cb696a7667eac5266fcd36fdbbc817f7c2b69b853183c21a4ad85",
+    "experiments/lcjp003/r3/joint/v001/src/geometry.py": "bd12b2541a618502fb20e3fd9d822c05f8e477ef61248eb7e781ac2819d9bedd",
+    "experiments/lcjp003/r3/joint/v001/src/supervision.py": "a4cd19152a9ed2aeafab387920876cd58dcf23950d40f84a69a684027f2b7608",
+    "experiments/lcjp003/r3/joint/v001/src/visibility.py": "b9c9758a3ab9d9e7da2ced700a343a8d9577497ab798cce86c333b16bf80de42",
+    "experiments/lcjp003/r2/v2/v001/src/common.py": "3e68084291661320c5f5f1f8dea9914035fc752a153d95bdc8d77035944e3439"
+  },
+  "design_version": "LCJP003-R4-design-v1",
+  "no_R3_trained_weights": true
+}

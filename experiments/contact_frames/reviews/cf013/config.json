@@ -1,0 +1,26 @@
+{
+  "time": "2026-10-24T17:53:55+08:00",
+  "episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "horizons": [
+    1,
+    2,
+    4
+  ],
+  "default_seed": 2026,
+  "default_horizon": 4,
+  "source": "frozen saved CF011/CF013 predictions; no retraining or new inference",
+  "comparison_points": "same original target mask intersect causal motion valid",
+  "display_points": "32 evenly spaced valid indices, optional all; no error-based selection",
+  "page": "CF013_高分辨率运动预测对照.html",
+  "manual_ranges_use": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "CF016",
+  "time": "2026-10-24T21:08:58+08:00",
+  "train_episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "review_episodes": [
+    "white_yellow_mug_demo_5",
+    "alphabet_soup_demo_0",
+    "porcelain_mug_demo_9",
+    "tomato_sauce_demo_3",
+    "alphabet_soup_demo_1"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "arms": [
+    "with_motion"
+  ],
+  "steps": 600,
+  "batch_frames": 16,
+  "plans": "CF010 exact 600-step plans and initial weights",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5,
+  "branch": "24->64->128 bias-free GELU; add before existing GRU; last layer zero initialized",
+  "motion_roi_sigma_m": 0.06,
+  "motion_center_hand_m": [
+    0,
+    0,
+    0.0934
+  ],
+  "feature_units_velocity_m": 0.01,
+  "supervision": "both arms share positive evidence weighted target1 and independently observed separation target0; unsupported unknown weight0",
+  "loss": "mean(weighted main BCE over selected16)+.5 original near BCE+.2 original dynamics SmoothL1",
+  "positive_weight": "original weight * interaction_support * near_target; zero when explicit geometry separation",
+  "negative_weight": "original near_weight when frozen geometry_separation_evidence; other zero",
+  "use_manual_ranges_for_training": false,
+  "selection": "last600 only; all three seeds; no review-based selection",
+  "raw_motion_not_CF013_weight_transfer": true,
+  "review_thresholds": [
+    0.2,
+    0.8
+  ],
+  "input_limit": "legacy point inputs retained identically in both arms and may use offline tracking; new dense motion strictly past/current; do not claim whole pipeline online",
+  "test_access": false,
+  "control": "/mnt/nvme1/drh/D_VLA/experiments/contact_frames/cf014",
+  "removed_normalized_channels": [
+    21,
+    22
+  ],
+  "intervention": "Only normalized point-mass channels 21 and 22 are zeroed at model entry, training and inference. Dimensions and all other inputs unchanged.",
+  "human_review_only": true
+}

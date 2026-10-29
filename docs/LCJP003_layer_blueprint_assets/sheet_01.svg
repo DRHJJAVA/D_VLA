@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="963pt" height="1899.36pt" viewBox="0 0 963 1899.36" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-28T13:13:34.774523</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1899.36 
+L 963 1899.36 
+L 963 -0 
+L 0 -0 
+z
+" style="fill: #f4f7fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.31 173.52 
+L 930.69 173.52 
+Q 935.154 173.52 935.154 169.0848 
+L 935.154 120.852 
+Q 935.154 116.4168 930.69 116.4168 
+L 32.31 116.4168 
+Q 27.846 116.4168 27.846 120.852 
+L 27.846 169.0848 
+Q 27.846 173.52 32.31 173.52 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 32.31 231.732 
+L 930.69 231.732 
+Q 935.154 231.732 935.154 227.2968 
+L 935.154 179.064 
+Q 935.154 174.6288 930.69 174.6288 
+L 32.31 174.6288 
+Q 27.846 174.6288 27.846 179.064 
+L 27.846 227.2968 
+Q 27.846 231.732 32.31 231.732 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 32.31 289.944 
+L 930.69 289.944 
+Q 935.154 289.944 935.154 285.5088 
+L 935.154 237.276 
+Q 935.154 232.8408 930.69 232.8408 
+L 32.31 232.8408 
+Q 27.846 232.8408 27.846 237.276 
+L 27.846 285.5088 
+Q 27.846 289.944 32.31 289.944 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 32.31 348.156 
+L 930.69 348.156 
+Q 935.154 348.156 935.154 343.7208 
+L 935.154 295.488 
+Q 935.154 291.0528 930.69 291.0528 
+L 32.31 291.0528 
+Q 27.846 291.0528 27.846 295.488 
+L 27.846 343.7208 
+Q 27.846 348.156 32.31 348.156 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 32.31 406.368 
+L 930.69 406.368 
+Q 935.154 406.368 935.154 401.9328 
+L 935.154 353.7 
+Q 935.154 349.2648 930.69 349.2648 
+L 32.31 349.2648 
+Q 27.846 349.2648 27.846 353.7 
+L 27.846 401.9328 
+Q 27.846 406.368 32.31 406.368 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 32.31 464.58 
+L 930.69 464.58 
+Q 935.154 464.58 935.154 460.1448 
+L 935.154 411.912 
+Q 935.154 407.4768 930.69 407.4768 
+L 32.31 407.4768 
+Q 27.846 407.4768 27.846 411.912 
+L 27.846 460.1448 
+Q 27.846 464.58 32.31 464.58 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 32.31 522.792 
+L 930.69 522.792 
+Q 935.154 522.792 935.154 518.3568 
+L 935.154 470.124 
+Q 935.154 465.6888 930.69 465.6888 
+L 32.31 465.6888 
+Q 27.846 465.6888 27.846 470.124 
+L 27.846 518.3568 
+Q 27.846 522.792 32.31 522.792 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 32.31 581.004 
+L 930.69 581.004 
+Q 935.154 581.004 935.154 576.5688 
+L 935.154 528.336 
+Q 935.154 523.9008 930.69 523.9008 
+L 32.31 523.9008 
+Q 27.846 523.9008 27.846 528.336 
+L 27.846 576.5688 
+Q 27.846 581.004 32.31 581.004 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 32.31 639.216 
+L 930.69 639.216 
+Q 935.154 639.216 935.154 634.7808 
+L 935.154 586.548 
+Q 935.154 582.1128 930.69 582.1128 
+L 32.31 582.1128 
+Q 27.846 582.1128 27.846 586.548 
+L 27.846 634.7808 
+Q 27.846 639.216 32.31 639.216 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 32.31 697.428 
+L 930.69 697.428 
+Q 935.154 697.428 935.154 692.9928 
+L 935.154 644.76 
+Q 935.154 640.3248 930.69 640.3248 
+L 32.31 640.3248 
+Q 27.846 640.3248 27.846 644.76 
+L 27.846 692.9928 
+Q 27.846 697.428 32.31 697.428 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 32.31 755.64 
+L 930.69 755.64 
+Q 935.154 755.64 935.154 751.2048 
+L 935.154 702.972 
+Q 935.154 698.5368 930.69 698.5368 
+L 32.31 698.5368 
+Q 27.846 698.5368 27.846 702.972 
+L 27.846 751.2048 
+Q 27.846 755.64 32.31 755.64 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 32.31 813.852 
+L 930.69 813.852 
+Q 935.154 813.852 935.154 809.4168 
+L 935.154 761.184 
+Q 935.154 756.7488 930.69 756.7488 
+L 32.31 756.7488 
+Q 27.846 756.7488 27.846 761.184 
+L 27.846 809.4168 
+Q 27.846 813.852 32.31 813.852 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 32.31 872.064 
+L 930.69 872.064 
+Q 935.154 872.064 935.154 867.6288 
+L 935.154 819.396 
+Q 935.154 814.9608 930.69 814.9608 
+L 32.31 814.9608 
+Q 27.846 814.9608 27.846 819.396 
+L 27.846 867.6288 
+Q 27.846 872.064 32.31 872.064 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 32.31 930.276 
+L 930.69 930.276 
+Q 935.154 930.276 935.154 925.8408 
+L 935.154 877.608 
+Q 935.154 873.1728 930.69 873.1728 
+L 32.31 873.1728 
+Q 27.846 873.1728 27.846 877.608 
+L 27.846 925.8408 
+Q 27.846 930.276 32.31 930.276 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 32.31 988.488 
+L 930.69 988.488 
+Q 935.154 988.488 935.154 984.0528 
+L 935.154 935.82 
+Q 935.154 931.3848 930.69 931.3848 
+L 32.31 931.3848 
+Q 27.846 931.3848 27.846 935.82 
+L 27.846 984.0528 
+Q 27.846 988.488 32.31 988.488 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 32.31 1046.7 
+L 930.69 1046.7 
+Q 935.154 1046.7 935.154 1042.2648 
+L 935.154 994.032 
+Q 935.154 989.5968 930.69 989.5968 
+L 32.31 989.5968 
+Q 27.846 989.5968 27.846 994.032 
+L 27.846 1042.2648 
+Q 27.846 1046.7 32.31 1046.7 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 32.31 1104.912 
+L 930.69 1104.912 
+Q 935.154 1104.912 935.154 1100.4768 
+L 935.154 1052.244 
+Q 935.154 1047.8088 930.69 1047.8088 
+L 32.31 1047.8088 
+Q 27.846 1047.8088 27.846 1052.244 
+L 27.846 1100.4768 
+Q 27.846 1104.912 32.31 1104.912 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 32.31 1163.124 
+L 930.69 1163.124 
+Q 935.154 1163.124 935.154 1158.6888 
+L 935.154 1110.456 
+Q 935.154 1106.0208 930.69 1106.0208 
+L 32.31 1106.0208 
+Q 27.846 1106.0208 27.846 1110.456 
+L 27.846 1158.6888 
+Q 27.846 1163.124 32.31 1163.124 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 32.31 1221.336 
+L 930.69 1221.336 
+Q 935.154 1221.336 935.154 1216.9008 
+L 935.154 1168.668 
+Q 935.154 1164.2328 930.69 1164.2328 
+L 32.31 1164.2328 
+Q 27.846 1164.2328 27.846 1168.668 
+L 27.846 1216.9008 
+Q 27.846 1221.336 32.31 1221.336 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 32.31 1279.548 
+L 930.69 1279.548 
+Q 935.154 1279.548 935.154 1275.1128 
+L 935.154 1226.88 
+Q 935.154 1222.4448 930.69 1222.4448 
+L 32.31 1222.4448 
+Q 27.846 1222.4448 27.846 1226.88 
+L 27.846 1275.1128 
+Q 27.846 1279.548 32.31 1279.548 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 32.31 1337.76 
+L 930.69 1337.76 
+Q 935.154 1337.76 935.154 1333.3248 
+L 935.154 1285.092 
+Q 935.154 1280.6568 930.69 1280.6568 
+L 32.31 1280.6568 
+Q 27.846 1280.6568 27.846 1285.092 
+L 27.846 1333.3248 
+Q 27.846 1337.76 32.31 1337.76 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 32.31 1395.972 
+L 930.69 1395.972 
+Q 935.154 1395.972 935.154 1391.5368 
+L 935.154 1343.304 
+Q 935.154 1338.8688 930.69 1338.8688 
+L 32.31 1338.8688 
+Q 27.846 1338.8688 27.846 1343.304 
+L 27.846 1391.5368 
+Q 27.846 1395.972 32.31 1395.972 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 32.31 1454.184 
+L 930.69 1454.184 
+Q 935.154 1454.184 935.154 1449.7488 
+L 935.154 1401.516 
+Q 935.154 1397.0808 930.69 1397.0808 
+L 32.31 1397.0808 
+Q 27.846 1397.0808 27.846 1401.516 
+L 27.846 1449.7488 
+Q 27.846 1454.184 32.31 1454.184 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 32.31 1512.396 
+L 930.69 1512.396 
+Q 935.154 1512.396 935.154 1507.9608 
+L 935.154 1459.728 
+Q 935.154 1455.2928 930.69 1455.2928 
+L 32.31 1455.2928 
+Q 27.846 1455.2928 27.846 1459.728 
+L 27.846 1507.9608 
+Q 27.846 1512.396 32.31 1512.396 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 32.31 1570.608 
+L 930.69 1570.608 
+Q 935.154 1570.608 935.154 1566.1728 
+L 935.154 1517.94 
+Q 935.154 1513.5048 930.69 1513.5048 
+L 32.31 1513.5048 
+Q 27.846 1513.5048 27.846 1517.94 
+L 27.846 1566.1728 
+Q 27.846 1570.608 32.31 1570.608 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 32.31 1628.82 
+L 930.69 1628.82 
+Q 935.154 1628.82 935.154 1624.3848 
+L 935.154 1576.152 
+Q 935.154 1571.7168 930.69 1571.7168 
+L 32.31 1571.7168 
+Q 27.846 1571.7168 27.846 1576.152 
+L 27.846 1624.3848 
+Q 27.846 1628.82 32.31 1628.82 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 32.31 1687.032 
+L 930.69 1687.032 
+Q 935.154 1687.032 935.154 1682.5968 
+L 935.154 1634.364 
+Q 935.154 1629.9288 930.69 1629.9288 
+L 32.31 1629.9288 
+Q 27.846 1629.9288 27.846 1634.364 
+L 27.846 1682.5968 
+Q 27.846 1687.032 32.31 1687.032 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 32.31 1745.244 
+L 930.69 1745.244 
+Q 935.154 1745.244 935.154 1740.8088 
+L 935.154 1692.576 
+Q 935.154 1688.1408 930.69 1688.1408 
+L 32.31 1688.1408 
+Q 27.846 1688.1408 27.846 1692.576 
+L 27.846 1740.8088 
+Q 27.846 1745.244 32.31 1745.244 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 32.31 1803.456 
+L 930.69 1803.456 
+Q 935.154 1803.456 935.154 1799.0208 
+L 935.154 1750.788 
+Q 935.154 1746.3528 930.69 1746.3528 
+L 32.31 1746.3528 
+Q 27.846 1746.3528 27.846 1750.788 
+L 27.846 1799.0208 
+Q 27.846 1803.456 32.31 1803.456 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 32.31 1861.668 
+L 930.69 1861.668 
+Q 935.154 1861.668 935.154 1857.2328 
+L 935.154 1809 
+Q 935.154 1804.5648 930.69 1804.5648 
+L 32.31 1804.5648 
+Q 27.846 1804.5648 27.846 1809 
+L 27.846 1857.2328 
+Q 27.846 1861.668 32.31 1861.668 
+z
+" clip-path="url(#p00730efd5c)" style="fill: #ffffff; stroke: #d7e2ed; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="32.31" y="52.430625" transform="rotate(-0 32.31 52.430625)">01  冻结视觉编码器</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #476177" x="32.31" y="77.252175" transform="rotate(-0 32.31 77.252175)">灰色模块复用已有权重；输入尺寸按本图固定。B=batch，V=2视角。</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="136.260113" transform="rotate(-0 41.796 136.260113)">V0</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="136.260113" transform="rotate(-0 88.11 136.260113)">RGB-D与分割前处理</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="135.464175" transform="rotate(-0 266.67 135.464175)">RGB [B,2,256,256,3]</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="498.24" y="135.181519" transform="rotate(-0 498.24 135.181519)">SAM2.1 tiny，32×32提示网格；机器人几何排除；深度反投影；跨视角关联。非训练网络层。</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="194.472113" transform="rotate(-0 41.796 194.472113)">D0</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(88.11 194.472113)">DINOv2-S/14</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(88.11 207.498175)">PatchEmbed</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="193.676175" transform="rotate(-0 266.67 193.676175)">448×448×3 → 32×32×384</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="498.24" y="192.880238" transform="rotate(-0 498.24 192.880238)">Conv2d 3→384，kernel=stride=14；位置编码；保留官方CLS token。</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="252.684113" transform="rotate(-0 41.796 252.684113)">D1</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="252.684113" transform="rotate(-0 88.11 252.684113)">DINO Block 1</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="251.94755" transform="rotate(-0 266.67 251.94755)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 251.289113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 261.9468)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="310.896113" transform="rotate(-0 41.796 310.896113)">D2</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="310.896113" transform="rotate(-0 88.11 310.896113)">DINO Block 2</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="310.15955" transform="rotate(-0 266.67 310.15955)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 309.501113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 320.1588)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="369.108113" transform="rotate(-0 41.796 369.108113)">D3</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="369.108113" transform="rotate(-0 88.11 369.108113)">DINO Block 3</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="368.37155" transform="rotate(-0 266.67 368.37155)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 367.713113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 378.3708)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="427.320113" transform="rotate(-0 41.796 427.320113)">D4</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="427.320113" transform="rotate(-0 88.11 427.320113)">DINO Block 4</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="426.58355" transform="rotate(-0 266.67 426.58355)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 425.925113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 436.5828)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="485.532113" transform="rotate(-0 41.796 485.532113)">D5</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="485.532113" transform="rotate(-0 88.11 485.532113)">DINO Block 5</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="484.79555" transform="rotate(-0 266.67 484.79555)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 484.137113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 494.7948)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="543.744113" transform="rotate(-0 41.796 543.744113)">D6</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="543.744113" transform="rotate(-0 88.11 543.744113)">DINO Block 6</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="543.00755" transform="rotate(-0 266.67 543.00755)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 542.349113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 553.0068)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="601.956113" transform="rotate(-0 41.796 601.956113)">D7</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="601.956113" transform="rotate(-0 88.11 601.956113)">DINO Block 7</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="601.21955" transform="rotate(-0 266.67 601.21955)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 600.561113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 611.2188)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="660.168113" transform="rotate(-0 41.796 660.168113)">D8</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="660.168113" transform="rotate(-0 88.11 660.168113)">DINO Block 8</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="659.43155" transform="rotate(-0 266.67 659.43155)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 658.773113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 669.4308)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="718.380113" transform="rotate(-0 41.796 718.380113)">D9</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="718.380113" transform="rotate(-0 88.11 718.380113)">DINO Block 9</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="717.64355" transform="rotate(-0 266.67 717.64355)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 716.985113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 727.6428)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="776.592113" transform="rotate(-0 41.796 776.592113)">D10</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="776.592113" transform="rotate(-0 88.11 776.592113)">DINO Block 10</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="775.85555" transform="rotate(-0 266.67 775.85555)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 775.197113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 785.8548)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="834.804113" transform="rotate(-0 41.796 834.804113)">D11</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="834.804113" transform="rotate(-0 88.11 834.804113)">DINO Block 11</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="834.06755" transform="rotate(-0 266.67 834.06755)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 833.409113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 844.0668)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="893.016113" transform="rotate(-0 41.796 893.016113)">D12</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="893.016113" transform="rotate(-0 88.11 893.016113)">DINO Block 12</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="892.27955" transform="rotate(-0 266.67 892.27955)">[B·2,1025,384] → 同形状</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 891.621113)">LN384 → MHA(6头,64维/头) → 残差 → LN384 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 902.2788)">Linear384→1536 → GELU → Linear1536→384 → 残差。</text>
+   </g>
+   <g id="text_59">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="951.228113" transform="rotate(-0 41.796 951.228113)">D13</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="951.228113" transform="rotate(-0 88.11 951.228113)">最终归一化与点特征采样</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #225b54" transform="translate(266.67 950.432175)">1024×384 →</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #225b54" transform="translate(266.67 962.27405)">[B,K,2048,384]</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="498.24" y="949.636238" transform="rotate(-0 498.24 949.636238)">LN384；去CLS；按点投影采样特征；同一物体跨视角特征按可见性融合。</text>
+   </g>
+   <g id="text_63">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1009.440113" transform="rotate(-0 41.796 1009.440113)">S0</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(88.11 1009.440113)">SmolVLM2视觉PatchEm</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(88.11 1022.466175)">bed</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1008.644175" transform="rotate(-0 266.67 1008.644175)">512×512×3 → 1024×768</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="498.24" y="1007.848238" transform="rotate(-0 498.24 1007.848238)">官方视觉主干；Conv 3→768，kernel=stride=16；位置编码。</text>
+   </g>
+   <g id="text_67">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1067.652113" transform="rotate(-0 41.796 1067.652113)">S1</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1067.652113" transform="rotate(-0 88.11 1067.652113)">Smol视觉 Block 1</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1066.91555" transform="rotate(-0 266.67 1066.91555)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1066.257113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1076.9148)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_71">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1125.864113" transform="rotate(-0 41.796 1125.864113)">S2</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1125.864113" transform="rotate(-0 88.11 1125.864113)">Smol视觉 Block 2</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1125.12755" transform="rotate(-0 266.67 1125.12755)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1124.469113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1135.1268)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_75">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1184.076113" transform="rotate(-0 41.796 1184.076113)">S3</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1184.076113" transform="rotate(-0 88.11 1184.076113)">Smol视觉 Block 3</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1183.33955" transform="rotate(-0 266.67 1183.33955)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1182.681113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1193.3388)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_79">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1242.288113" transform="rotate(-0 41.796 1242.288113)">S4</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1242.288113" transform="rotate(-0 88.11 1242.288113)">Smol视觉 Block 4</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1241.55155" transform="rotate(-0 266.67 1241.55155)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1240.893113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1251.5508)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_83">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1300.500113" transform="rotate(-0 41.796 1300.500113)">S5</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1300.500113" transform="rotate(-0 88.11 1300.500113)">Smol视觉 Block 5</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1299.76355" transform="rotate(-0 266.67 1299.76355)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1299.105113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1309.7628)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_87">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1358.712113" transform="rotate(-0 41.796 1358.712113)">S6</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1358.712113" transform="rotate(-0 88.11 1358.712113)">Smol视觉 Block 6</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1357.97555" transform="rotate(-0 266.67 1357.97555)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1357.317113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1367.9748)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_91">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1416.924113" transform="rotate(-0 41.796 1416.924113)">S7</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1416.924113" transform="rotate(-0 88.11 1416.924113)">Smol视觉 Block 7</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1416.18755" transform="rotate(-0 266.67 1416.18755)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1415.529113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1426.1868)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_95">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1475.136113" transform="rotate(-0 41.796 1475.136113)">S8</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1475.136113" transform="rotate(-0 88.11 1475.136113)">Smol视觉 Block 8</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1474.39955" transform="rotate(-0 266.67 1474.39955)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1473.741113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1484.3988)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_99">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1533.348113" transform="rotate(-0 41.796 1533.348113)">S9</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1533.348113" transform="rotate(-0 88.11 1533.348113)">Smol视觉 Block 9</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1532.61155" transform="rotate(-0 266.67 1532.61155)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1531.953113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1542.6108)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_103">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1591.560113" transform="rotate(-0 41.796 1591.560113)">S10</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1591.560113" transform="rotate(-0 88.11 1591.560113)">Smol视觉 Block 10</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1590.82355" transform="rotate(-0 266.67 1590.82355)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1590.165113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1600.8228)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_107">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1649.772113" transform="rotate(-0 41.796 1649.772113)">S11</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1649.772113" transform="rotate(-0 88.11 1649.772113)">Smol视觉 Block 11</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1649.03555" transform="rotate(-0 266.67 1649.03555)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1648.377113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1659.0348)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_111">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1707.984113" transform="rotate(-0 41.796 1707.984113)">S12</text>
+   </g>
+   <g id="text_112">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1707.984113" transform="rotate(-0 88.11 1707.984113)">Smol视觉 Block 12</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1707.24755" transform="rotate(-0 266.67 1707.24755)">[B·V,1024,768] → 同形状</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1706.589113)">LN768 → MHA(12头,64维/头) → 残差 → LN768 →</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1717.2468)">Linear768→3072 → GELU-tanh → Linear3072→768 → 残差。</text>
+   </g>
+   <g id="text_115">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1766.196113" transform="rotate(-0 41.796 1766.196113)">S13</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1766.196113" transform="rotate(-0 88.11 1766.196113)">视觉连接器</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1765.400175" transform="rotate(-0 266.67 1765.400175)">1024×768 → 64×960</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1764.604238)">官方4×4空间重排：16·768=12288；Linear12288→960。保留官方末端归一化/</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #172b45" transform="translate(498.24 1775.261925)">掩码。</text>
+   </g>
+   <g id="text_119">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1766a6" x="41.796" y="1824.408113" transform="rotate(-0 41.796 1824.408113)">S14</text>
+   </g>
+   <g id="text_120">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="88.11" y="1824.408113" transform="rotate(-0 88.11 1824.408113)">文字嵌入</text>
+   </g>
+   <g id="text_121">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #225b54" x="266.67" y="1823.612175" transform="rotate(-0 266.67 1823.612175)">token IDs → [B,L,960]</text>
+   </g>
+   <g id="text_122">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #172b45" x="498.24" y="1822.816238" transform="rotate(-0 498.24 1822.816238)">官方词嵌入与图像token合并，序列长度T=文本+图像token；不是手工图文相似度标签。</text>
+   </g>
+   <g id="text_123">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526d85" x="32.31" y="1878.3" transform="rotate(-0 32.31 1878.3)">LCJP003 | R2修订设计尺寸；已训练R2模型不等同于本图 | 每个编号为独立层或明确的非参数操作</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p00730efd5c">
+   <rect x="7.2" y="7.2" width="948.6" height="1884.96"/>
+  </clipPath>
+ </defs>
+</svg>

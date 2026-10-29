@@ -1,0 +1,25 @@
+{
+  "created": "2026-10-27T10:17:10+08:00",
+  "files": {
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/adapters.py": "dd9e6eb9b3dd6f8b9c09428e95cfb2bd1611acf8eebb7803183e1343c601365a",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/executor.py": "c4070d22d62cd15a0df9ed54a8b8ee0e8a97524be89f5d045d7b54d2115d7a8e",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/video.py": "d9a2dce7070b888561e8e7ab97c9faa707a35db724428147666607a705cbabc8",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/protocol.json": "63a73e360dc35e8ef1f68127c322c5c928f5e7553292ed2ee79e63e9eac16d4f",
+    "/mnt/nvme1/drh/D_VLA/experiments/contact_joint_object/src/render_episode.py": "bb4921e4810735446fa5ae58d33777ddbc6a3cd0489f3a2e2e304e53ddfe2f5b",
+    "/mnt/nvme1/drh/D_VLA/experiments/contact_joint_object/src/observations.py": "23fcfe731c35389c330abfcc93eff249e8c57f2d86e8c8116fffd4e8ac74a005",
+    "/mnt/nvme1/drh/D_VLA/experiments/contact_joint_object/src/sampling.py": "3975a00395b40c98a739ece17d568e217a2cf120688637f279189132af4cb9e0",
+    "/mnt/nvme1/drh/D_VLA/src/v3/stage2_extract_dino.py": "d2023be140ff1e458d7027b1468ab0281b02d563678b14d67ddd195fcd61c8c7",
+    "/mnt/nvme1/drh/D_VLA/src/restore_audit.py": "0ff330695fb96d6180722d0b311a73f0cf19f278377f099639e4620ada5360ab",
+    "/mnt/nvme1/drh/D_VLA/src/asset_paths.py": "bc35d068c4fb9df84319306b53d2ed6fb612168a78d5a2018b019d371bcb57a2",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/compatibility.py": "2a22e0505acf7f56f31ac972c561d79d20d08eb6dd516a6caf4358529e3e63dd",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/action_consistency_protocol_v2.json": "33109294b13ca0dd41fd4a5b38a962fef940e11940fe138d3bb2181e1e87b633",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/action_sensitivity.json": "5b97608c38c1c70fb8634d9ed921ddab5a0c96efbc624527da753316bc7e86ef",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/action_35mask_only.json": "ffa8b904bb21676b50a4683f1e9bba06d2e0a1dbee167264d0967910fc79a81a",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/action_history_sensitivity.json": "7ca4cb94fcd6679b6f3349c09e589a1361c3fe65a1c9b0a2cf5e44f03b8e7de8",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/sam_scoped_math_probe.json": "63435fc6e6885ba6bdee6d73aa03220269181f34c0ae84d72bbddfc71d3f0ba9"
+  },
+  "activation_cases_passed": 5,
+  "updated": "2026-10-27T11:56:35+08:00",
+  "parent_build_lock": "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/pre_action_gate_20261027_115349/build_lock.json",
+  "running_executor_source_before_metadata_fix": "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/executor_before_ready_metadata_20261027_115635.py"
+}

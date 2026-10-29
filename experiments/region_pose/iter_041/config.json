@@ -1,0 +1,24 @@
+{
+  "motion_min_run": 5,
+  "region_min_voxels": 3,
+  "region_min_observed_frames": 2,
+  "endpoint_min_separation": 2,
+  "endpoint_offsets": [
+    0,
+    2,
+    5,
+    10
+  ],
+  "include_last_supported": true,
+  "motion_cloud_min": 20,
+  "motion_overlap_min": 0.5,
+  "lift_strict_m": 0.025,
+  "gap_strict_mm": 0,
+  "split": "train",
+  "phase": "pilot_5_then_all_20",
+  "network_changed": false,
+  "loss_changed": false,
+  "validation_read": false,
+  "test_read": false,
+  "stage2_accepted": false
+}

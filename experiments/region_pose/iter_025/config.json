@@ -1,0 +1,8 @@
+{
+  "max_points": 2048,
+  "min_positive_sources": 3,
+  "min_negative_sources": 16,
+  "rule": "unchanged_013",
+  "training": false,
+  "seed": 2026
+}

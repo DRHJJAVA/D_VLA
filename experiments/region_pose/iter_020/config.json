@@ -1,0 +1,10 @@
+{
+  "iteration": 20,
+  "split": "train",
+  "grid_pixels": 8,
+  "training": false,
+  "tracking_inference": false,
+  "new_labels": false,
+  "read_raw_rgbd": false,
+  "preregistered": true
+}

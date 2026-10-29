@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1296pt" height="720pt" viewBox="0 0 1296 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-28T20:43:58.350906</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1296 720 
+L 1296 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 51.552 285.4944 
+L 280.008 285.4944 
+Q 286.848 285.4944 286.848 278.7624 
+L 286.848 148.1616 
+Q 286.848 141.4296 280.008 141.4296 
+L 51.552 141.4296 
+Q 44.712 141.4296 44.712 148.1616 
+L 44.712 278.7624 
+Q 44.712 285.4944 51.552 285.4944 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #e8eff9; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 338.832 285.4944 
+L 580.968 285.4944 
+Q 587.808 285.4944 587.808 278.7624 
+L 587.808 148.1616 
+Q 587.808 141.4296 580.968 141.4296 
+L 338.832 141.4296 
+Q 331.992 141.4296 331.992 148.1616 
+L 331.992 278.7624 
+Q 331.992 285.4944 338.832 285.4944 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #e0f1ed; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 639.792 285.4944 
+L 881.928 285.4944 
+Q 888.768 285.4944 888.768 278.7624 
+L 888.768 148.1616 
+Q 888.768 141.4296 881.928 141.4296 
+L 639.792 141.4296 
+Q 632.952 141.4296 632.952 148.1616 
+L 632.952 278.7624 
+Q 632.952 285.4944 639.792 285.4944 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #e0f1ed; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 940.752 285.4944 
+L 1244.448 285.4944 
+Q 1251.288 285.4944 1251.288 278.7624 
+L 1251.288 148.1616 
+Q 1251.288 141.4296 1244.448 141.4296 
+L 940.752 141.4296 
+Q 933.912 141.4296 933.912 148.1616 
+L 933.912 278.7624 
+Q 933.912 285.4944 940.752 285.4944 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #e0f1ed; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 290.901401 213.462 
+Q 309.422338 213.462 326.378027 213.462 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 321.178027 210.862 
+L 326.378027 213.462 
+L 321.178027 216.062 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 591.861401 213.462 
+Q 610.382338 213.462 627.338027 213.462 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 622.138027 210.862 
+L 627.338027 213.462 
+L 622.138027 216.062 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 892.821401 213.462 
+Q 911.342338 213.462 928.298027 213.462 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 923.098027 210.862 
+L 928.298027 213.462 
+L 923.098027 216.062 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 51.552 527.8464 
+L 280.008 527.8464 
+Q 286.848 527.8464 286.848 521.1144 
+L 286.848 390.5136 
+Q 286.848 383.7816 280.008 383.7816 
+L 51.552 383.7816 
+Q 44.712 383.7816 44.712 390.5136 
+L 44.712 521.1144 
+Q 44.712 527.8464 51.552 527.8464 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #f1f3f6; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 338.832 527.8464 
+L 580.968 527.8464 
+Q 587.808 527.8464 587.808 521.1144 
+L 587.808 390.5136 
+Q 587.808 383.7816 580.968 383.7816 
+L 338.832 383.7816 
+Q 331.992 383.7816 331.992 390.5136 
+L 331.992 521.1144 
+Q 331.992 527.8464 338.832 527.8464 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #e0f1ed; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 639.792 527.8464 
+L 881.928 527.8464 
+Q 888.768 527.8464 888.768 521.1144 
+L 888.768 390.5136 
+Q 888.768 383.7816 881.928 383.7816 
+L 639.792 383.7816 
+Q 632.952 383.7816 632.952 390.5136 
+L 632.952 521.1144 
+Q 632.952 527.8464 639.792 527.8464 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #fff0dc; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 940.752 527.8464 
+L 1244.448 527.8464 
+Q 1251.288 527.8464 1251.288 521.1144 
+L 1251.288 390.5136 
+Q 1251.288 383.7816 1244.448 383.7816 
+L 940.752 383.7816 
+Q 933.912 383.7816 933.912 390.5136 
+L 933.912 521.1144 
+Q 933.912 527.8464 940.752 527.8464 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #fff0dc; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 290.901401 455.814 
+Q 309.422338 455.814 326.378027 455.814 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 321.178027 453.214 
+L 326.378027 455.814 
+L 321.178027 458.414 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 591.861401 455.814 
+Q 610.382338 455.814 627.338027 455.814 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 622.138027 453.214 
+L 627.338027 455.814 
+L 622.138027 458.414 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 892.821401 455.814 
+Q 911.342338 455.814 928.298027 455.814 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 923.098027 453.214 
+L 928.298027 455.814 
+L 923.098027 458.414 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 165.78 289.512973 
+Q 165.78 334.636677 165.78 378.195133 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 168.38 372.995133 
+L 165.78 378.195133 
+L 163.18 372.995133 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 459.9 289.512973 
+Q 459.9 334.636677 459.9 378.195133 
+" clip-path="url(#p9ee46e2a21)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 462.5 372.995133 
+L 459.9 378.195133 
+L 457.3 372.995133 
+z
+" clip-path="url(#p9ee46e2a21)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #20334c" x="39.24" y="51.894" transform="rotate(-0 39.24 51.894)">R4 · 从“少数高分点”到“部位分数真正影响动作”</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #526276" x="39.24" y="85.554" transform="rotate(-0 39.24 85.554)">评分与动作接口细节  /  独立分数 ≠ 注意力权重  /  所有64个局部组参与读取</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="165.78" y="165.796613" transform="rotate(-0 165.78 165.796613)">几何局部组</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(111.889375 217.029581)">2048目标点 → 64局部组</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(130.23 232.453175)">每组最多32邻点</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(105.78 247.876769)">距离与表面边界有效性掩码</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="459.9" y="165.796613" transform="rotate(-0 459.9 165.796613)">组评分头</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(404.9 216.553644)">组特征＋指令＋夹爪状态</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(406.089844 231.977237)">MLP 512→256→128→1</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(406.339844 248.143331)">独立分数 s = sigmoid(u)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="760.86" y="165.796613" transform="rotate(-0 760.86 165.796613)">点内细化</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(708.374844 216.743136)">点残差 r：256→128→1</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(699.383437 232.530245)">logit = Σ w·u + 0.25 tanh(r)</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(703.619375 248.163214)">邻近表面内插值 → 点分数</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="1092.6" y="165.796613" transform="rotate(-0 1092.6 165.796613)">目标表面的评分图</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1054.370312 217.029581)">固定0–1分段颜色</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1042.6 232.453175)">允许整块部位同时高分</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1025.220312 247.876769)">不再强制只有最高5%显示红色</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="165.78" y="408.148613" transform="rotate(-0 165.78 408.148613)">特征先归一化</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(115.312031 459.095487)">v = Wv(LayerNorm(h))</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(135.23 474.569081)">保留全部64组</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(127.144844 490.735175)">取消Top-8硬选组</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="459.9" y="408.148613" transform="rotate(-0 459.9 408.148613)">分数显式门控</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(420.409375 459.381581)">Fpart = Σ a · s · v</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(417.085156 474.805175)">a：动作查询注意力</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(422.560156 490.228769)">s：独立部位分数</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="760.86" y="408.148613" transform="rotate(-0 760.86 408.148613)">可学习 λ 融合</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(707.343594 459.095487)">F = (1−λ)Fbase + λFpart</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(705.86 474.519081)">基础分支：粗场景与状态</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(704.801406 490.685175)">门控后不单独LayerNorm</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="1092.6" y="408.148613" transform="rotate(-0 1092.6 408.148613)">动作输出与直接对照</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1044.524219 459.381581)">16层 / 720维动作专家</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1027.6 474.805175)">运动头＋开合头＋切换辅助头</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1029.997656 490.228769)">正常 / 均匀 / 打乱 / 错误部位</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #526276" x="46.08" y="590.454" transform="rotate(-0 46.08 590.454)">监督：独立部位支持＋可信表面局部一致性；未知点不强行当负样本，不能通过平滑把整物体抹成高分。</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #526276" x="46.08" y="637.578" transform="rotate(-0 46.08 637.578)">验收：正确评分必须改善动作误差或闭环成功率；梯度非零、λ增大、热图更红，都不能单独证明有效。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9ee46e2a21">
+   <rect x="32.4" y="21.6" width="1231.2" height="673.2"/>
+  </clipPath>
+ </defs>
+</svg>

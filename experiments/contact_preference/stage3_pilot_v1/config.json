@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "key": "porcelain_mug_demo_9_attempt1_query36",
+      "asset": "porcelain_mug",
+      "demo": "demo_9",
+      "title": "瓷杯",
+      "frames": [
+        55,
+        57,
+        60,
+        65,
+        66
+      ]
+    },
+    {
+      "key": "tomato_sauce_demo_7_attempt1_query48",
+      "asset": "tomato_sauce",
+      "demo": "demo_7",
+      "title": "番茄酱罐",
+      "frames": [
+        68,
+        70,
+        73,
+        78
+      ]
+    },
+    {
+      "key": "white_yellow_mug_demo_4_attempt1_query40",
+      "asset": "white_yellow_mug",
+      "demo": "demo_4",
+      "title": "白黄杯",
+      "frames": [
+        66,
+        68,
+        71
+      ]
+    }
+  ],
+  "robot_collision_geoms": [
+    1,
+    3,
+    4,
+    6,
+    7
+  ],
+  "motion_ridge": [
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "prior_contact_sensitivity": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "separation_gap_models": [
+    "local_noise_scale",
+    "object_observed_extent"
+  ],
+  "split": "leave_one_training_episode_out",
+  "model_training": "low_capacity_evidence_regression_only_no_scoring_network",
+  "no_human_intervals": true,
+  "no_reserved_test": true,
+  "geometry_sigma_envelope": "quadrature(heldout_inlier_correspondence_residual,pixel_footprint,LOO_shift); plus_visual_proxy_difference",
+  "positive_basis": "heldout_episode_M1_MSE_less_than_M0_and_fixed_roll_and_reverse_hand_control; only_endpoints_with_actual_correspondence_and_saved_LOO",
+  "motion_controls": "roll or reverse observed hand delta transforms across heldout temporal blocks; same actual point inputs; one-block case unidentifiable",
+  "penetration": "inside_union_collision_or_visual_surface: unknown",
+  "support_display": "argmax masses only for categorical view; store continuous masses; ties unknown",
+  "frame_time": "no_duration_training_target_in_this_pilot; original_frame_indices_only"
+}

@@ -1,0 +1,11 @@
+{
+  "split": "train",
+  "grid_px": 8,
+  "distance_px": 3,
+  "cap": 300,
+  "grid_center_offset": 3.5,
+  "same_quality_as_011": true,
+  "seed": 2026,
+  "grasp_network_training": false,
+  "validation_requires_separate_registration": true
+}

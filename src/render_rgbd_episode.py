@@ -20,6 +20,7 @@ def main():
     parser.add_argument("--input", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--libero-root", type=Path, required=True)
+    parser.add_argument("--bddl-subdir", choices=("libero_object", "libero_90"), default="libero_object")
     parser.add_argument("--episode", default="demo_0")
     parser.add_argument("--size", type=int, default=448)
     args = parser.parse_args()
@@ -31,7 +32,7 @@ def main():
     with h5py.File(args.input, "r") as source:
         data = source["data"]
         bddl_name = Path(data.attrs["bddl_file_name"]).name
-        bddl = args.libero_root / "libero/libero/bddl_files/libero_object" / bddl_name
+        bddl = args.libero_root / "libero/libero/bddl_files" / args.bddl_subdir / bddl_name
         episode = data[args.episode]
         states = episode["states"]
         nframes = len(states)

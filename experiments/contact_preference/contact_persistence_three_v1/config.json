@@ -1,0 +1,25 @@
+{
+  "id": "contact_persistence_three_v1",
+  "created": "2026-10-25T20:52:25+08:00",
+  "cases": [
+    {
+      "id": "push_drawer_demo_0",
+      "suite": "libero_90",
+      "name": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet_demo.hdf5",
+      "display": "推关抽屉 demo0"
+    }
+  ],
+  "reuse_cases": [
+    "porcelain_mug_demo_9",
+    "stove_demo_0"
+  ],
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "full_episodes": true,
+  "scoring_training": false,
+  "reserved_demos_access": false,
+  "human_labels_used": false,
+  "rule": "source real surface + independent relative pose persistence; no lift/action-class gate; missing observations not negatives"
+}

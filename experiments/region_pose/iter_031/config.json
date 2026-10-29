@@ -1,0 +1,76 @@
+{
+  "iteration": "031",
+  "seed": 2026,
+  "epochs": 24,
+  "lr": 0.0002,
+  "weight_decay": 0.0001,
+  "max_points": 2048,
+  "min_points": 128,
+  "train_episodes": [
+    "alphabet_soup_demo_3",
+    "alphabet_soup_demo_5",
+    "alphabet_soup_demo_0",
+    "alphabet_soup_demo_6",
+    "alphabet_soup_demo_7",
+    "porcelain_mug_demo_10",
+    "porcelain_mug_demo_1",
+    "porcelain_mug_demo_4",
+    "porcelain_mug_demo_5",
+    "porcelain_mug_demo_9",
+    "tomato_sauce_demo_3",
+    "tomato_sauce_demo_1",
+    "tomato_sauce_demo_0",
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "white_yellow_mug_demo_2",
+    "white_yellow_mug_demo_5",
+    "white_yellow_mug_demo_6",
+    "white_yellow_mug_demo_4",
+    "white_yellow_mug_demo_3"
+  ],
+  "val_episodes": [
+    "alphabet_soup_demo_1",
+    "porcelain_mug_demo_2",
+    "tomato_sauce_demo_4",
+    "white_yellow_mug_demo_1"
+  ],
+  "source_lock_sha256": "f5c798ee7256e2067e33ae14119e06aa8ba9f174544120db0a0cf8b5f3ed62b1",
+  "variants": [
+    "object_only",
+    "pose_conditioned"
+  ],
+  "scope": "029 expanded10 fixed240; training rank known-negative top64 only",
+  "min_train_events": 10,
+  "min_val_events": 3,
+  "runs": [
+    {
+      "group": "expanded10",
+      "variant": "object_only",
+      "epochs": 24,
+      "events": 10
+    },
+    {
+      "group": "expanded10",
+      "variant": "pose_conditioned",
+      "epochs": 24,
+      "events": 10
+    }
+  ],
+  "control_episodes": [
+    "porcelain_mug_demo_9",
+    "tomato_sauce_demo_0",
+    "tomato_sauce_demo_1",
+    "tomato_sauce_demo_6",
+    "tomato_sauce_demo_7",
+    "white_yellow_mug_demo_2"
+  ],
+  "updates_per_run": 240,
+  "offsets": [
+    15,
+    10,
+    5,
+    1
+  ],
+  "rank_negative_selection": "stable_descending_current_detached_logit_top64_known_only",
+  "validation_loss": "original029"
+}

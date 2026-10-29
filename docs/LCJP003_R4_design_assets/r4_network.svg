@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1296pt" height="720pt" viewBox="0 0 1296 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-28T20:43:57.602091</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1296 720 
+L 1296 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 48.132 285.4944 
+L 191.088 285.4944 
+Q 197.928 285.4944 197.928 278.7624 
+L 197.928 141.4296 
+Q 197.928 134.6976 191.088 134.6976 
+L 48.132 134.6976 
+Q 41.292 134.6976 41.292 141.4296 
+L 41.292 278.7624 
+Q 41.292 285.4944 48.132 285.4944 
+z
+" clip-path="url(#p97185441a3)" style="fill: #f1f3f6; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 236.232 285.4944 
+L 379.188 285.4944 
+Q 386.028 285.4944 386.028 278.7624 
+L 386.028 141.4296 
+Q 386.028 134.6976 379.188 134.6976 
+L 236.232 134.6976 
+Q 229.392 134.6976 229.392 141.4296 
+L 229.392 278.7624 
+Q 229.392 285.4944 236.232 285.4944 
+z
+" clip-path="url(#p97185441a3)" style="fill: #e8eff9; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 424.332 285.4944 
+L 577.548 285.4944 
+Q 584.388 285.4944 584.388 278.7624 
+L 584.388 141.4296 
+Q 584.388 134.6976 577.548 134.6976 
+L 424.332 134.6976 
+Q 417.492 134.6976 417.492 141.4296 
+L 417.492 278.7624 
+Q 417.492 285.4944 424.332 285.4944 
+z
+" clip-path="url(#p97185441a3)" style="fill: #e8eff9; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 622.692 285.4944 
+L 775.908 285.4944 
+Q 782.748 285.4944 782.748 278.7624 
+L 782.748 141.4296 
+Q 782.748 134.6976 775.908 134.6976 
+L 622.692 134.6976 
+Q 615.852 134.6976 615.852 141.4296 
+L 615.852 278.7624 
+Q 615.852 285.4944 622.692 285.4944 
+z
+" clip-path="url(#p97185441a3)" style="fill: #e8eff9; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 821.052 285.4944 
+L 981.108 285.4944 
+Q 987.948 285.4944 987.948 278.7624 
+L 987.948 141.4296 
+Q 987.948 134.6976 981.108 134.6976 
+L 821.052 134.6976 
+Q 814.212 134.6976 814.212 141.4296 
+L 814.212 278.7624 
+Q 814.212 285.4944 821.052 285.4944 
+z
+" clip-path="url(#p97185441a3)" style="fill: #e0f1ed; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 1026.252 285.4944 
+L 1244.448 285.4944 
+Q 1251.288 285.4944 1251.288 278.7624 
+L 1251.288 141.4296 
+Q 1251.288 134.6976 1244.448 134.6976 
+L 1026.252 134.6976 
+Q 1019.412 134.6976 1019.412 141.4296 
+L 1019.412 278.7624 
+Q 1019.412 285.4944 1026.252 285.4944 
+z
+" clip-path="url(#p97185441a3)" style="fill: #fff0dc; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 201.298654 210.096 
+Q 212.633876 210.096 222.40385 210.096 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 217.20385 207.496 
+L 222.40385 210.096 
+L 217.20385 212.696 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 389.398654 210.096 
+Q 400.733876 210.096 410.50385 210.096 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 405.30385 207.496 
+L 410.50385 210.096 
+L 405.30385 212.696 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 587.758654 210.096 
+Q 599.093876 210.096 608.86385 210.096 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 603.66385 207.496 
+L 608.86385 210.096 
+L 603.66385 212.696 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 786.118654 210.096 
+Q 797.453876 210.096 807.22385 210.096 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 802.02385 207.496 
+L 807.22385 210.096 
+L 802.02385 212.696 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 991.318654 210.096 
+Q 1002.653876 210.096 1012.42385 210.096 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 1007.22385 207.496 
+L 1012.42385 210.096 
+L 1007.22385 212.696 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 236.232 436.9644 
+L 379.188 436.9644 
+Q 386.028 436.9644 386.028 430.2324 
+L 386.028 343.3896 
+Q 386.028 336.6576 379.188 336.6576 
+L 236.232 336.6576 
+Q 229.392 336.6576 229.392 343.3896 
+L 229.392 430.2324 
+Q 229.392 436.9644 236.232 436.9644 
+z
+" clip-path="url(#p97185441a3)" style="fill: #e8eff9; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 389.308436 383.545257 
+Q 425.700994 336.65632 461.133841 291.003893 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 455.891593 293.517621 
+L 461.133841 291.003893 
+L 459.999475 296.705929 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 424.332 436.9644 
+L 577.548 436.9644 
+Q 584.388 436.9644 584.388 430.2324 
+L 584.388 343.3896 
+Q 584.388 336.6576 577.548 336.6576 
+L 424.332 336.6576 
+Q 417.492 336.6576 417.492 343.3896 
+L 417.492 430.2324 
+Q 417.492 436.9644 424.332 436.9644 
+z
+" clip-path="url(#p97185441a3)" style="fill: #e8eff9; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 500.94 289.512973 
+Q 500.94 311.07433 500.94 331.07044 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 503.54 325.87044 
+L 500.94 331.07044 
+L 498.34 325.87044 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 622.692 436.9644 
+L 775.908 436.9644 
+Q 782.748 436.9644 782.748 430.2324 
+L 782.748 343.3896 
+Q 782.748 336.6576 775.908 336.6576 
+L 622.692 336.6576 
+Q 615.852 336.6576 615.852 343.3896 
+L 615.852 430.2324 
+Q 615.852 436.9644 622.692 436.9644 
+z
+" clip-path="url(#p97185441a3)" style="fill: #f1f3f6; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 786.028436 383.545257 
+Q 822.420994 336.65632 857.853841 291.003893 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 852.611593 293.517621 
+L 857.853841 291.003893 
+L 856.719475 296.705929 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 821.052 436.9644 
+L 981.108 436.9644 
+Q 987.948 436.9644 987.948 430.2324 
+L 987.948 343.3896 
+Q 987.948 336.6576 981.108 336.6576 
+L 821.052 336.6576 
+Q 814.212 336.6576 814.212 343.3896 
+L 814.212 430.2324 
+Q 814.212 436.9644 821.052 436.9644 
+z
+" clip-path="url(#p97185441a3)" style="fill: #f1f3f6; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 991.228436 383.545257 
+Q 1027.620994 336.65632 1063.053841 291.003893 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 1057.811593 293.517621 
+L 1063.053841 291.003893 
+L 1061.919475 296.705929 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 1026.252 436.9644 
+L 1244.448 436.9644 
+Q 1251.288 436.9644 1251.288 430.2324 
+L 1251.288 343.3896 
+Q 1251.288 336.6576 1244.448 336.6576 
+L 1026.252 336.6576 
+Q 1019.412 336.6576 1019.412 343.3896 
+L 1019.412 430.2324 
+Q 1019.412 436.9644 1026.252 436.9644 
+z
+" clip-path="url(#p97185441a3)" style="fill: #fff0dc; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 1133.64 289.512973 
+Q 1133.64 311.07433 1133.64 331.07044 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 1136.24 325.87044 
+L 1133.64 331.07044 
+L 1131.04 325.87044 
+z
+" clip-path="url(#p97185441a3)" style="fill: #405e78; stroke: #405e78; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 48.132 638.9244 
+L 310.788 638.9244 
+Q 317.628 638.9244 317.628 632.1924 
+L 317.628 538.6176 
+Q 317.628 531.8856 310.788 531.8856 
+L 48.132 531.8856 
+Q 41.292 531.8856 41.292 538.6176 
+L 41.292 632.1924 
+Q 41.292 638.9244 48.132 638.9244 
+z
+" clip-path="url(#p97185441a3)" style="fill: #efe8f5; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 362.772 638.9244 
+L 601.488 638.9244 
+Q 608.328 638.9244 608.328 632.1924 
+L 608.328 538.6176 
+Q 608.328 531.8856 601.488 531.8856 
+L 362.772 531.8856 
+Q 355.932 531.8856 355.932 538.6176 
+L 355.932 632.1924 
+Q 355.932 638.9244 362.772 638.9244 
+z
+" clip-path="url(#p97185441a3)" style="fill: #efe8f5; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 653.472 638.9244 
+L 892.188 638.9244 
+Q 899.028 638.9244 899.028 632.1924 
+L 899.028 538.6176 
+Q 899.028 531.8856 892.188 531.8856 
+L 653.472 531.8856 
+Q 646.632 531.8856 646.632 538.6176 
+L 646.632 632.1924 
+Q 646.632 638.9244 653.472 638.9244 
+z
+" clip-path="url(#p97185441a3)" style="fill: #efe8f5; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 944.172 638.9244 
+L 1244.448 638.9244 
+Q 1251.288 638.9244 1251.288 632.1924 
+L 1251.288 538.6176 
+Q 1251.288 531.8856 1244.448 531.8856 
+L 944.172 531.8856 
+Q 937.332 531.8856 937.332 538.6176 
+L 937.332 632.1924 
+Q 937.332 638.9244 944.172 638.9244 
+z
+" clip-path="url(#p97185441a3)" style="fill: #efe8f5; stroke: #8291a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 321.679731 587.088 
+Q 336.779503 587.088 350.314028 587.088 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 345.114028 584.488 
+L 350.314028 587.088 
+L 345.114028 589.688 
+z
+" clip-path="url(#p97185441a3)" style="fill: #8c6bac; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 490.68 527.866308 
+Q 490.68 484.4247 490.68 442.54834 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 488.08 447.74834 
+L 490.68 442.54834 
+L 493.28 447.74834 
+z
+" clip-path="url(#p97185441a3)" style="fill: #8c6bac; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 901.08 312.44015 
+Q 901.08 300.976616 901.08 291.07833 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 898.48 296.27833 
+L 901.08 291.07833 
+L 903.68 296.27833 
+z
+" clip-path="url(#p97185441a3)" style="fill: #8c6bac; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 1161 527.866308 
+Q 1161 484.4247 1161 442.54834 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 1158.4 447.74834 
+L 1161 442.54834 
+L 1163.6 447.74834 
+z
+" clip-path="url(#p97185441a3)" style="fill: #8c6bac; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 798.48 529.866 
+L 798.48 314.442 
+L 901.08 314.442 
+" clip-path="url(#p97185441a3)" style="fill: none; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #8c6bac; stroke-width: 1.4"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #20334c" x="39.24" y="51.894" transform="rotate(-0 39.24 51.894)">LCJP003 · R4    直接识别目标 → 三维部位评分 → 动作</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #526276" x="39.24" y="85.554" transform="rotate(-0 39.24 85.554)">网络总图  /  LCJP003-R4-design-v1  /  实线：推理路径     虚线：训练监督</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="119.61" y="159.064612" transform="rotate(-0 119.61 159.064612)">双视角 RGB-D</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(74.61 213.663581)">外部相机＋腕部相机</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(84.61 229.087175)">当前图像与深度</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(70.409219 244.510769)">任务指令 / 机器人历史</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="307.71" y="159.064612" transform="rotate(-0 307.71 159.064612)">共享视觉特征</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(270.469375 213.663581)">DINO 384 → 256</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(272.71 229.087175)">两路各编码一次</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(257.71 244.510769)">特征供分割与点云复用</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="500.94" y="159.064612" transform="rotate(-0 500.94 159.064612)">直接图文分割</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(454.379844 213.663581)">4 × Cross-Attention</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(475.639219 229.087175)">256维 / 8头</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(448.138437 244.510769)">上采样 256 → 128 → 64</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="699.3" y="159.064612" transform="rotate(-0 699.3 159.064612)">目标三维表面</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(652.059375 213.663581)">预测掩膜 × 当前深度</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(659.3 229.087175)">双视角可见性融合</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(652.634375 244.510769)">2048真实点 × 268维</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="901.08" y="159.064612" transform="rotate(-0 901.08 159.064612)">状态条件部位评分</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(857.739375 213.663581)">64局部组 × 32邻点</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(851.08 229.087175)">独立组分数＋点内细化</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(852.678437 244.510769)">夹爪位置 / 朝向 / 开口</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="1135.35" y="159.064612" transform="rotate(-0 1135.35 159.064612)">部位门控动作专家</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1097.025 213.663581)">8个查询读取64组</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1076.458594 229.087175)">可学习 λ 融合 → 256→720</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1070.05 244.510769)">16层专家＋LoRA → 16步动作</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="307.71" y="361.024612" transform="rotate(-0 307.71 361.024612)">指令编码</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(272.699062 398.090378)">文字 960 → 256</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(263.509219 413.513972)">目标 / 放置位置查询</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="500.94" y="361.024612" transform="rotate(-0 500.94 361.024612)">明确的掩膜输出</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(465.94 398.07362)">目标＋放置位置</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(456.739219 413.53073)">各视角存在 / 可见性</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="699.3" y="361.024612" transform="rotate(-0 699.3 361.024612)">状态与两指几何</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(657.634375 398.090378)">16×27历史 → 256</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(660.409375 413.513972)">两指64×6 → 256</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="901.08" y="361.024612" transform="rotate(-0 901.08 361.024612)">共享粗场景上下文</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(856.879219 398.090378)">放置位置 / 障碍关系</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(846.08 413.513972)">不重复编码密集目标几何</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="1135.35" y="361.024612" transform="rotate(-0 1135.35 361.024612)">执行与下一帧</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1094.8 398.090378)">运动6维＋开合2类</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1080.35 413.513972)">剩余计划返回下一次预测</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #77548d" x="42.66" y="496.206" transform="rotate(-0 42.66 496.206)">仅训练阶段：离线候选与示范监督</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="179.46" y="556.252613" transform="rotate(-0 179.46 556.252613)">监督来源</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(117.959219 596.684378)">SAM 32×32候选 / 示范轨迹</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(99.46 612.107972)">语义＋运动＋跨视角绑定；冲突忽略</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="482.13" y="556.252613" transform="rotate(-0 482.13 556.252613)">目标掩膜监督</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(438.37375 596.684378)">BCE＋Dice / 存在性</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(417.13 612.107972)">不是模型自身选择的循环标签</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="772.83" y="556.252613" transform="rotate(-0 772.83 556.252613)">部位支持监督</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(718.629219 596.684378)">有效交互范围 / 未知忽略</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(713.020625 612.107972)">替换固定25mm全物体扩散</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20334c" x="1094.31" y="556.252613" transform="rotate(-0 1094.31 556.252613)">动作与时序监督</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1026.799844 596.810159)">Drifting＋开合分类＋切换辅助</text>
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #263b4e" transform="translate(1049.31 612.443128)">相邻计划重叠一致性</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #526276" x="42.66" y="677.97" transform="rotate(-0 42.66 677.97)">推理不执行密集候选搜索；未来示范只参与训练监督。R4为结构迭代，图中不含实验结果。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p97185441a3">
+   <rect x="32.4" y="21.6" width="1231.2" height="673.2"/>
+  </clipPath>
+ </defs>
+</svg>

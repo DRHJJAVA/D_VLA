@@ -1,0 +1,49 @@
+{
+  "created_beijing": "2026-10-25T12:14:16+08:00",
+  "scope": "derived camera pilot, read-only raw states, no contact training",
+  "new_fixed_cameras": [
+    "frontview",
+    "sideview",
+    "birdview"
+  ],
+  "image_size": 448,
+  "cases": {
+    "stove_demo_0": {
+      "raw": "experiments/contact_frames/cf017/raw/KITCHEN_SCENE9_turn_on_the_stove_demo.hdf5",
+      "suite": "libero_90",
+      "frames": [
+        0,
+        70,
+        75,
+        86,
+        90,
+        100
+      ]
+    },
+    "drawer_demo_0": {
+      "raw": "experiments/contact_frames/cf017/raw/KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_demo.hdf5",
+      "suite": "libero_90",
+      "frames": [
+        0,
+        44,
+        70,
+        88,
+        120
+      ]
+    },
+    "two_objects_demo_0": {
+      "raw": "experiments/contact_frames/cf017/raw/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_demo.hdf5",
+      "suite": "libero_10",
+      "frames": [
+        0,
+        100,
+        160,
+        250,
+        300,
+        330
+      ]
+    }
+  },
+  "render_sha256": "461d8cd0831c8a5b10835efb847ddbef25a3c04936333fa632eb422ab6df7abe",
+  "original_render_sha256": "bcd00c5bb5b47761e6ddb43533dc967ac889c184536f037092a436f3aef89c6c"
+}

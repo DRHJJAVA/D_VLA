@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-24T19:37:33+08:00",
+  "purpose": "separate reliability ratio from weighted point-count channels in frozen branch",
+  "variants": {
+    "original": [],
+    "valid_ratio_mean": [
+      20
+    ],
+    "valid_mass_mean": [
+      21
+    ],
+    "surface_mass_mean": [
+      22
+    ],
+    "mass_pair_mean": [
+      21,
+      22
+    ]
+  },
+  "order": "train summaries frozen, then same held review; human aggregation only afterwards",
+  "no_optimizer": true
+}

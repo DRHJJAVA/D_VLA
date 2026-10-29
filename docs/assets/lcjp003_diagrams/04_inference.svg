@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1224pt" height="1152pt" viewBox="0 0 1224 1152" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T20:14:02.755944</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1152 
+L 1224 1152 
+L 1224 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 302.4 246.6 
+L 302.4 349.322949 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 305.4 343.322949 
+L 302.4 349.322949 
+L 299.4 343.322949 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 302.4 829.8 
+L 302.4 932.522949 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 305.4 926.522949 
+L 302.4 932.522949 
+L 299.4 926.522949 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 302.4 441 
+L 302.4 543.722949 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 305.4 537.722949 
+L 302.4 543.722949 
+L 299.4 537.722949 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 302.4 635.4 
+L 302.4 738.122949 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 305.4 732.122949 
+L 302.4 738.122949 
+L 299.4 732.122949 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 921.6 739.8 
+L 921.6 637.077051 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 918.6 643.077051 
+L 921.6 637.077051 
+L 924.6 643.077051 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 921.6 545.4 
+L 921.6 442.677051 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 918.6 448.677051 
+L 921.6 442.677051 
+L 924.6 448.677051 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 459 784.8 
+L 763.322949 784.8 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 757.322949 781.8 
+L 763.322949 784.8 
+L 757.322949 787.8 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 765 396 
+L 482.4 396 
+L 482.4 201.6 
+L 460.677051 201.6 
+" clip-path="url(#p612746c93d)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 466.677051 204.6 
+L 460.677051 201.6 
+L 466.677051 198.6 
+z
+" clip-path="url(#p612746c93d)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 26px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b4d" x="54" y="54.378594" transform="rotate(-0 54 54.378594)">04  在线推理：观测、评分、动作与闭环更新</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 16px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52606d" x="54" y="1131.335" transform="rotate(-0 54 1131.335)">一次前向生成动作块；执行前若干步后重新观测。同步展示读取当前评分，不作为控制监督。</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 153.36 247.68 
+L 451.44 247.68 
+Q 460.08 247.68 460.08 239.04 
+L 460.08 164.16 
+Q 460.08 155.52 451.44 155.52 
+L 153.36 155.52 
+Q 144.72 155.52 144.72 164.16 
+L 144.72 239.04 
+Q 144.72 247.68 153.36 247.68 
+z
+" clip-path="url(#p612746c93d)" style="fill: #f7f9fc; stroke: #97a7b6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 153.36 442.08 
+L 451.44 442.08 
+Q 460.08 442.08 460.08 433.44 
+L 460.08 358.56 
+Q 460.08 349.92 451.44 349.92 
+L 153.36 349.92 
+Q 144.72 349.92 144.72 358.56 
+L 144.72 433.44 
+Q 144.72 442.08 153.36 442.08 
+z
+" clip-path="url(#p612746c93d)" style="fill: #f7f9fc; stroke: #97a7b6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 153.36 636.48 
+L 451.44 636.48 
+Q 460.08 636.48 460.08 627.84 
+L 460.08 552.96 
+Q 460.08 544.32 451.44 544.32 
+L 153.36 544.32 
+Q 144.72 544.32 144.72 552.96 
+L 144.72 627.84 
+Q 144.72 636.48 153.36 636.48 
+z
+" clip-path="url(#p612746c93d)" style="fill: #e4eff8; stroke: #5f8dae; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 153.36 830.88 
+L 451.44 830.88 
+Q 460.08 830.88 460.08 822.24 
+L 460.08 747.36 
+Q 460.08 738.72 451.44 738.72 
+L 153.36 738.72 
+Q 144.72 738.72 144.72 747.36 
+L 144.72 822.24 
+Q 144.72 830.88 153.36 830.88 
+z
+" clip-path="url(#p612746c93d)" style="fill: #fff0ca; stroke: #ba8c28; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 772.56 830.88 
+L 1070.64 830.88 
+Q 1079.28 830.88 1079.28 822.24 
+L 1079.28 747.36 
+Q 1079.28 738.72 1070.64 738.72 
+L 772.56 738.72 
+Q 763.92 738.72 763.92 747.36 
+L 763.92 822.24 
+Q 763.92 830.88 772.56 830.88 
+z
+" clip-path="url(#p612746c93d)" style="fill: #e4eff8; stroke: #5f8dae; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 772.56 636.48 
+L 1070.64 636.48 
+Q 1079.28 636.48 1079.28 627.84 
+L 1079.28 552.96 
+Q 1079.28 544.32 1070.64 544.32 
+L 772.56 544.32 
+Q 763.92 544.32 763.92 552.96 
+L 763.92 627.84 
+Q 763.92 636.48 772.56 636.48 
+z
+" clip-path="url(#p612746c93d)" style="fill: #e5f2e8; stroke: #57976b; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 772.56 442.08 
+L 1070.64 442.08 
+Q 1079.28 442.08 1079.28 433.44 
+L 1079.28 358.56 
+Q 1079.28 349.92 1070.64 349.92 
+L 772.56 349.92 
+Q 763.92 349.92 763.92 358.56 
+L 763.92 433.44 
+Q 763.92 442.08 772.56 442.08 
+z
+" clip-path="url(#p612746c93d)" style="fill: #e5f2e8; stroke: #57976b; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 153.36 1025.28 
+L 451.44 1025.28 
+Q 460.08 1025.28 460.08 1016.64 
+L 460.08 941.76 
+Q 460.08 933.12 451.44 933.12 
+L 153.36 933.12 
+Q 144.72 933.12 144.72 941.76 
+L 144.72 1016.64 
+Q 144.72 1025.28 153.36 1025.28 
+z
+" clip-path="url(#p612746c93d)" style="fill: #f7f9fc; stroke: #97a7b6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(210.238594 193.536984)">读取当前双相机 RGB-D</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(230.4 219.866766)">机器人状态＋指令</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="302.4" y="401.101875" transform="rotate(-0 302.4 401.101875)">更新因果历史缓存</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="302.4" y="595.501875" transform="rotate(-0 302.4 595.501875)">构造当前三维点与局部特征</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="302.4" y="789.901875" transform="rotate(-0 302.4 789.901875)">根据当前状态输出部位权重</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="921.6" y="789.901875" transform="rotate(-0 921.6 789.901875)">汇聚带几何的部位 token</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(852.065156 582.590109)">Drifting 一次前向</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(858.6 609.296766)">生成未来动作块</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="921.6" y="401.101875" transform="rotate(-0 921.6 401.101875)">执行前若干动作</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(221.4 971.136984)">同步展示双相机评分</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(194.4 997.466766)">帧号、夹爪状态与未知区域</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p612746c93d">
+   <rect x="0" y="0" width="1224" height="1152"/>
+  </clipPath>
+ </defs>
+</svg>

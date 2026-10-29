@@ -1,0 +1,18 @@
+{
+  "episode": "tomato_sauce_demo_4",
+  "frames": "all t>=1, total132",
+  "attempts": [
+    [
+      50,
+      113
+    ]
+  ],
+  "voxel_m": 0.001,
+  "min_voxels": 3,
+  "min_run": 5,
+  "validation_read": true,
+  "test_read": false,
+  "new_training": false,
+  "new_labels": false,
+  "method_frozen_iteration": 33
+}

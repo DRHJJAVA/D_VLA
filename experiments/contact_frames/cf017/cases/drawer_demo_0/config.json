@@ -1,0 +1,25 @@
+{
+  "episode": "drawer_demo_0",
+  "rgbd": "/mnt/nvme1/drh/D_VLA/experiments/contact_frames/cf017/rgbd/drawer_demo_0.h5",
+  "component": "/mnt/nvme1/drh/D_VLA/experiments/contact_frames/cf017/cases/drawer_demo_0/component.npz",
+  "motion": "/mnt/nvme1/drh/D_VLA/experiments/contact_frames/cf017/cases/drawer_demo_0/motion.npz",
+  "seed": 2026,
+  "max_tracks": 128,
+  "steps": 300,
+  "ensemble_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "window": 9,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "aux_weight": 0.2,
+  "frame_size": 96,
+  "contact_display": 0.8,
+  "separation_display": 0.2,
+  "measurement_floor_m": 0.002,
+  "quality_note": "Data quality only; no action-type/lift/closing/rigid-hand success gate",
+  "output_semantics": "observed-source contact compatibility candidate; physical success unverified",
+  "frozen_tracker": "experiments/region_pose/iter_010/weights/scaled_offline.pth"
+}

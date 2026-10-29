@@ -1,0 +1,72 @@
+{
+  "version": "R2_V2_v001",
+  "seed": 20261027,
+  "updates": 3000,
+  "effective_batch": 8,
+  "microbatch_windows": 1,
+  "history": 16,
+  "horizon": 16,
+  "patches": 32,
+  "points_per_patch": 32,
+  "selected_patches": 8,
+  "tokens_per_patch": 4,
+  "sam_grid": 32,
+  "sam_m2m": false,
+  "sam_union": false,
+  "precision": "float32",
+  "policy_tf32": false,
+  "visual_encoder": "DINOv2-S/14 cached frozen full maps",
+  "text_encoder": "SmolVLM2 frozen",
+  "expert": "official SmolVLA 16-layer pretrained",
+  "lora_rank": 16,
+  "lora_alpha": 16,
+  "optimizer": {
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "grad_clip": 1.0
+  },
+  "lambda": {
+    "initial_value": 0.05,
+    "initial_cap": 0.2,
+    "warmup_updates": 500
+  },
+  "flow_steps_eval": 10,
+  "eval_every": 250,
+  "save_every": 10,
+  "EMA": 0.995,
+  "teacher_gate": "paired 20 held-out development episodes, common observed dimensions, bootstrap lower CI > 0",
+  "value_weighting": false,
+  "future_offsets": [
+    1,
+    4,
+    16
+  ],
+  "future_observation_training_targets_only": true,
+  "proposal_sampling": "all candidates; per-candidate losses, no averaged coordinates/actions",
+  "task_demo_window_sampling": "uniform task, uniform demo, uniform causal start with valid horizon",
+  "evaluation": "80 fixed windows: 4 per training task demo0 and 2 per development episode; baseline step0000 evaluated before step250 comparison",
+  "plan_reference": {
+    "committed_prefix": 0,
+    "dropout": 0.5,
+    "model_plan_probability_max": 0.8,
+    "schedule_updates": 500
+  },
+  "loss_weights": {
+    "mixed": 1.0,
+    "part": 0.5,
+    "role": 0.1,
+    "utility": 0.1,
+    "aux_action": 0.25,
+    "aux_future": 0.1,
+    "crossview": 0.05,
+    "plan": 0.05
+  },
+  "cache_mode": "deterministic on-demand 32x32 masks and features; no repeat coverage study",
+  "heldout_access": false,
+  "flow_convention": "x_t=t*noise+(1-t)*action; target velocity=noise-action; integrate 1 to 0"
+}

@@ -1,0 +1,122 @@
+{
+  "first_frame": {
+    "xyz_base": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 2.4212419986724854
+    },
+    "xyz_norm": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 0.749175488948822
+    },
+    "relation": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 2.5849939584732056
+    },
+    "object_id": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 999995.0
+    },
+    "point_valid": {
+      "shape_match": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "rgb": {
+      "shape_match": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "uv": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 255.0
+    },
+    "depth_uv": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 255.0
+    },
+    "camera_id": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 1.0
+    },
+    "projected_uv": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 85892161368.3819
+    },
+    "projected_depth_uv": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 85892161368.7569
+    },
+    "view_visible": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 1.0
+    },
+    "depth_residual": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 0.3197057247161865
+    },
+    "state": {
+      "shape_match": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "K": {
+      "shape_match": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "camera_to_world": {
+      "shape_match": true,
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "view_visible_legacy": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 1.0
+    },
+    "view_state": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 4.0
+    },
+    "view_surface_depth": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 2.787628412246704
+    },
+    "view_depth_gap": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 0.1159055467314829
+    },
+    "view_support_error": {
+      "shape_match": true,
+      "equal": false,
+      "max_abs": 1.4832620410479649
+    }
+  },
+  "live_objects": 14,
+  "cached_objects": 14,
+  "window_geometry": {
+    "xyz_base": true,
+    "xyz_norm": true,
+    "relation": true,
+    "object_id": true,
+    "point_valid": true,
+    "state": true,
+    "history_valid": true,
+    "group_id": true
+  },
+  "action_roundtrip_max_abs": 5.960464477539063e-08
+}

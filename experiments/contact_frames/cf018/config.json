@@ -1,0 +1,21 @@
+{
+  "id": "cf018",
+  "status": "pre_registered",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "decode": {
+    "do_sample": false,
+    "seed": 2026,
+    "max_new_tokens": 2048
+  },
+  "arms": {
+    "A": "rgb",
+    "B": "rgb_instruction",
+    "C": "rgb_sensor",
+    "D": "rgb_instruction_sensor"
+  },
+  "human_ranges": "post_hoc_review_only",
+  "reserved_test_access": false,
+  "dataset": "LIBERO existing 8 reviewed episodes",
+  "source_plan": "/mnt/nvme1/drh/D_VLA/docs/预训练VLM_LIBERO接触时段验证方案.md"
+}

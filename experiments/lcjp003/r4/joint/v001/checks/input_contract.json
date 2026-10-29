@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "time": 1793193557.8602893,
+  "fixed_windows": 80,
+  "tasks": 10,
+  "visible_teacher_windows": 80,
+  "teacher_confidence_mean": 0.3341122400645642,
+  "teacher_confidence_min": 7.121711459040966e-06,
+  "depth_unprojection_max_m": 8.195402342043081e-08,
+  "heldout_read": false,
+  "class_counts_training_only": [
+    5592,
+    6384
+  ],
+  "switch_positive": 180,
+  "switch_count": 11896,
+  "input_label_separation": true,
+  "teacher_accuracy_claimed": false
+}

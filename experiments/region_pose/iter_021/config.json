@@ -1,0 +1,11 @@
+{
+  "grid_pixels": 8,
+  "max_corners": 300,
+  "quality_level": 0.01,
+  "min_distance": 3,
+  "block_size": 3,
+  "source": "011 original preparation AST lines73-80",
+  "frames": "query and initial depth only",
+  "training": false,
+  "tracking": false
+}

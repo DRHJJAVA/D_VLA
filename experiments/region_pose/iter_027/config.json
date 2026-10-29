@@ -1,0 +1,23 @@
+{
+  "iteration": 27,
+  "phase": "train_only",
+  "offsets": [
+    15,
+    10,
+    5,
+    1
+  ],
+  "new_events": [
+    "alphabet_soup_demo_5",
+    "alphabet_soup_demo_7",
+    "porcelain_mug_demo_5",
+    "white_yellow_mug_demo_4"
+  ],
+  "reference_iteration": 25,
+  "method_iteration": 14,
+  "fps": 2048,
+  "min_positive_sources": 3,
+  "min_negative_sources": 16,
+  "validation_read": false,
+  "test_read": false
+}

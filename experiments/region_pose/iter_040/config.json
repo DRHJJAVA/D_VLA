@@ -1,0 +1,28 @@
+{
+  "inputs": {
+    "direction": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_003/audits/all_demo_approach_diversity.json",
+    "baseline_training": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_020/summary.json",
+    "tracking_train": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_022/comparison_summary.json",
+    "tracking_val": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_023/comparison_summary.json",
+    "supervision": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_025/summary.json",
+    "early_train": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_027/summary.json",
+    "early_val": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_028/summary.json",
+    "model029_manifest": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_029/manifest.json",
+    "model031_manifest": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_031/manifest.json",
+    "model029_state": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_029/stage_state.json",
+    "model031_state": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_031/stage_state.json",
+    "wide_train": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_033/summary.json",
+    "white6_correspondence": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_035/summary.json",
+    "white6_supervision": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_037/summary.json",
+    "wide_val": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_038/summary_corrected.json",
+    "source_view": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_039/summary.json"
+  },
+  "network_changed": false,
+  "loss_changed": false,
+  "training": false,
+  "reserved_test_access": false,
+  "positive_source_min": 3,
+  "negative_source_min": 16,
+  "primary_unit": "episode",
+  "not_success_rate": true
+}

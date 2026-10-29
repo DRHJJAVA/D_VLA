@@ -1,0 +1,20 @@
+{
+  "episode": "white_yellow_mug_demo_6",
+  "query": 36,
+  "close": 37,
+  "endpoints": [
+    55,
+    57,
+    60,
+    65,
+    82
+  ],
+  "grid_px": 8,
+  "distance_px": 3,
+  "cap": 300,
+  "grid_center_offset": 3.5,
+  "seed": 2026,
+  "training": false,
+  "validation": false,
+  "test": false
+}

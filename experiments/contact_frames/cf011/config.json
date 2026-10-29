@@ -1,0 +1,43 @@
+{
+  "id": "CF011",
+  "time": "2026-10-24T16:41:06+08:00",
+  "train_episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "arms": [
+    "object_history",
+    "robot_conditioned"
+  ],
+  "folds": "leave_one_episode_out",
+  "steps": 600,
+  "batch_size": 4,
+  "history": 4,
+  "horizons": [
+    1,
+    2,
+    4
+  ],
+  "resolution": 96,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "sigma_m": [
+    0.002,
+    0.02
+  ],
+  "photometric_weight": 0.1,
+  "depth_edge_limit_m": 0.01,
+  "supervision": "frozen_tracker_pseudo_correspondence_plus_measured_RGBD_no_contact_labels",
+  "input": "dense_current_and_past_RGB_worldXYZ_valid_robot_filtered_no_tracks",
+  "human_ranges_use": false,
+  "test_access": false,
+  "checkpoint": "last600",
+  "gpu_fraction": 0.3
+}

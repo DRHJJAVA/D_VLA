@@ -1,0 +1,21 @@
+{
+  "case": "alphabet_soup_demo_0",
+  "video_frames": 148,
+  "model": "Qwen3-VL-8B-Instruct frozen CF018 checkpoint",
+  "history_offsets_original_frames": [
+    12,
+    6,
+    2,
+    0
+  ],
+  "output_states": [
+    "contact",
+    "no_contact",
+    "unknown"
+  ],
+  "one_current_frame_per_inference": true,
+  "sensor_alignment": "RGB-D t uses official obs/action t-1; t0 unknown",
+  "human_intervals": "posthoc review only",
+  "future_frames_in_query": false,
+  "manual_thresholds_for_label": false
+}

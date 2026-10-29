@@ -1,0 +1,82 @@
+{
+  "time": "2026-10-25T19:01:44+08:00",
+  "cases": [
+    {
+      "key": "porcelain_mug_demo_9_attempt1_query36",
+      "asset": "porcelain_mug",
+      "demo": "demo_9",
+      "title": "瓷杯",
+      "frames": [
+        55,
+        57,
+        60,
+        65,
+        66
+      ]
+    },
+    {
+      "key": "tomato_sauce_demo_7_attempt1_query48",
+      "asset": "tomato_sauce",
+      "demo": "demo_7",
+      "title": "番茄酱罐",
+      "frames": [
+        68,
+        70,
+        73,
+        78
+      ]
+    },
+    {
+      "key": "white_yellow_mug_demo_4_attempt1_query40",
+      "asset": "white_yellow_mug",
+      "demo": "demo_4",
+      "title": "白黄杯",
+      "frames": [
+        66,
+        68,
+        71
+      ]
+    }
+  ],
+  "fit_radii_m": [
+    0.003,
+    0.005
+  ],
+  "min_cells": 12,
+  "search_m": 0.008,
+  "samples_per_geom": 512,
+  "seed": 2026,
+  "variants": [
+    "collision_leave_frame_out",
+    "visual_leave_frame_out",
+    "collision_query_only",
+    "visual_query_only"
+  ],
+  "robot_mesh_ids": {
+    "visual": [
+      2,
+      5
+    ],
+    "collision": [
+      3,
+      4,
+      6,
+      7
+    ]
+  },
+  "no_force_fit": true,
+  "no_scoring_training": true,
+  "labels": "all estimates remain unknown; report evidence, no new positive contact truth",
+  "holdout_limit": "Leave-frame-out removes source coordinates from tested frame but inherited source membership and frozen RGBD transforms are shared; not independent identity ground truth. Query-only fit is stricter control.",
+  "temporal_scope": "Only existing independently registered endpoints; no inventing transforms after last endpoint",
+  "depth_diagnostic_tolerance_m": 0.003,
+  "depth_tolerance_role": "reuse millimeter observation tolerance for visibility diagnostics, not contact threshold",
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand",
+    "frontview",
+    "sideview",
+    "birdview"
+  ],
+  "query_only_control": "original main-camera pregrasp points held fixed; five-view fusion variants contain all cameras"
+}

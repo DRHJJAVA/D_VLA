@@ -1,0 +1,63 @@
+{
+  "id": "CF013",
+  "time": "2026-10-24T17:33:16+08:00",
+  "train_episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "arms": [
+    "motion_absolute",
+    "motion_residual"
+  ],
+  "folds": "leave_one_episode_out",
+  "steps": 600,
+  "batch_size": 4,
+  "history": 4,
+  "horizons": [
+    1,
+    2,
+    4
+  ],
+  "resolution": 96,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "sigma_m": [
+    0.002,
+    0.02
+  ],
+  "photometric_weight": 0.1,
+  "depth_edge_limit_m": 0.01,
+  "supervision": "frozen_tracker_pseudo_correspondence_plus_measured_RGBD_no_contact_labels",
+  "input": "CF011 causal history/state plus dense full-resolution past-current RGBD velocity, sampled only after dense calculation",
+  "human_ranges_use": false,
+  "test_access": false,
+  "checkpoint": "last600",
+  "gpu_fraction": 0.3,
+  "motion_channels": 4,
+  "decoder": "shared dense CNN with 32 input channels; at query point raw12 plus full-resolution velocity3/.01m and valid1 into residual MLP16-32-12, last zero initialized",
+  "first_conv_initialization": "CF011 original28 copied, added4 zero; all other CF011 parameters copied",
+  "output": "absolute or add valid causal velocity times horizon; invalid skip zero with explicit validity",
+  "motion96": "INTER_NEAREST dense field consistent with existing XYZ preparation; per-point decoder samples original-resolution field at actual current integer pixel",
+  "flow": {
+    "pyr_scale": 0.5,
+    "levels": 3,
+    "winsize": 15,
+    "iterations": 3,
+    "poly_n": 5,
+    "poly_sigma": 1.2,
+    "flags": 0,
+    "fb_original_px": 1.5,
+    "depth_edge_m": 0.01
+  },
+  "plans": "exact CF011 leave-one-episode-out 600-step plans and normalization",
+  "manual_ranges_use": false,
+  "calibration": "raw sigma only; CF012 scales not reused",
+  "scope": "local dynamics ablation, not contact scores"
+}

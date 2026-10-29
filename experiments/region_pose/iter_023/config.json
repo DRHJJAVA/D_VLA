@@ -1,0 +1,11 @@
+{
+  "split": "val",
+  "grid_px": 8,
+  "distance_px": 3,
+  "cap": 300,
+  "seed": 2026,
+  "same_quality_as_022": true,
+  "scoring_training": false,
+  "new_targets": false,
+  "fixed_old_validation_only": true
+}

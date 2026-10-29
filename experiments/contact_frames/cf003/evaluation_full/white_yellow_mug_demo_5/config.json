@@ -1,0 +1,25 @@
+{
+  "episode": "white_yellow_mug_demo_5",
+  "rgbd": "data/v3/trainval_rgbd_448/white_yellow_mug/demo_5.h5",
+  "component": "data/v3/proposals/foreground3d_components/train/white_yellow_mug_demo_5.npz",
+  "motion": "experiments/region_pose/iter_003/evidence/motion/white_yellow_mug_demo_5.npz",
+  "seed": 2026,
+  "max_tracks": 128,
+  "steps": 300,
+  "ensemble_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "window": 9,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "aux_weight": 0.2,
+  "frame_size": 96,
+  "contact_display": 0.8,
+  "separation_display": 0.2,
+  "measurement_floor_m": 0.002,
+  "quality_note": "Data quality only; no action-type/lift/closing/rigid-hand success gate",
+  "output_semantics": "observed-source contact compatibility candidate; physical success unverified",
+  "frozen_tracker": "experiments/region_pose/iter_010/weights/scaled_offline.pth"
+}

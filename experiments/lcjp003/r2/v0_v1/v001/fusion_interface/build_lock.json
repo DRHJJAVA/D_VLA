@@ -1,0 +1,28 @@
+{
+  "time": "2026-10-27T16:03:27+08:00",
+  "hashes": {
+    "fusion_module.py": "727f7004ba800316337f6a6d12088e024990e9150a0c03327e007fe11ac0f480",
+    "check_cpu.py": "bb6cd3201fcc3be13b071c952219235241f512342917c80927d0e1f3368c718e",
+    "check_gpu.py": "18ad2db25a0374cd55cf0db6d65cd54a1410411cf23a942ae446ca1f7f58eae3",
+    "real_interface_inputs.pt": "7917fb9d5d22fd1cee7782cc5802fd0b7484a8cbb027c8160ecae095e5b25c21",
+    "cpu_result.json": "b3d21b8db943fab420e726875dd4cb55d87b009a4847bd46e0138655694082f8",
+    "gpu_result.json": "2b99f5ca30051d53cef9169079b0d54bffa33a14f12627255a002eea8700c677",
+    "integration_prepare.py": "34608995b78f5638e091de9e437e95341073b7941a3e9336f1c87d4ad5d331ad",
+    "integration_gpu.py": "0e2422fca30d5ba0b57542ebd42413c14876b3377fdbc88c9fd6a6f60fc17ca6",
+    "integration_inputs.pt": "4ca975a54e294fd4affea20b7aa299d0656f62dff1702d0347167728e631e561",
+    "integration_case10_observations.h5": "f50f9e8085839fa211049acc469c6917f7a63adefafb3d708676d1f6fdb2e589",
+    "integration_prepare_result.json": "72093df5f324e9fb2b761ba635e104186fcde3322e4e1b999558e2688fcbf9d8",
+    "integration_gpu_result.json": "7536775b48b3e301aae8f21c7d955d672297ebe23ed9f85c490edc6e7b9b4075",
+    "official_smolvla_model.safetensors": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+    "official_smolvla_config.json": "650584b56c104720f7a3c91d1ec6bec9e8de8ac11e60c92ba2fa82d93eda147d",
+    "integration_result.json": "4182f29537912511cec27780599305b603afef17e1747bcd53a1d5f42c9c038b",
+    "union_integration_prepare.py": "835bb9fd58346fdfad6bf7dc76a61cede3c93719fbf861cb6dda1e5f569c30d2",
+    "union_integration_gpu.py": "1d31e3530e9f641642666f2e5e92e68a33f7a0c5fbeab5e7e2ca770c4d32e7db",
+    "union_integration_prepare_result.json": "86b57b484770ca916f7b24754801e0820b1a1e3c3c09d8b9601d3a827d6e8315",
+    "union_integration_gpu_result.json": "b478268f0e99ea01811219a90759330f15911762715abbe18d71855efce5d4c1",
+    "union_integration_inputs.pt": "5b777555075d63e620b7f699b269c82d2d5bda25c919ba069e96ef3c3e4e8575"
+  },
+  "inherited_source_sha256": "52005602891b6c650930d78cd27ec41befac4a19ed94fef17fb156af5ff4339e",
+  "official_parameter_sha256": "54b868805d91fe257d5ec4a55b69f4c12346731dc3a30e58761998eb88d1486f",
+  "formal_updates": 0
+}

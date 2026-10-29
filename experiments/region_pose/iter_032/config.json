@@ -1,0 +1,14 @@
+{
+  "episodes": [
+    "alphabet_soup_demo_3",
+    "alphabet_soup_demo_6",
+    "porcelain_mug_demo_10",
+    "white_yellow_mug_demo_6"
+  ],
+  "split": "train",
+  "new_training": false,
+  "new_labels": false,
+  "validation_read": false,
+  "test_read": false,
+  "utc": "2026-10-23T21:18:20.852889+00:00"
+}

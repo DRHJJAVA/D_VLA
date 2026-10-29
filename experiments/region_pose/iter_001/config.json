@@ -1,0 +1,24 @@
+{
+  "iteration": 1,
+  "seed": 2026,
+  "epochs": 20,
+  "lr": 0.0002,
+  "weight_decay": 0.0001,
+  "max_points": 2048,
+  "min_points": 128,
+  "train_episodes": [
+    "alphabet_soup_demo_0",
+    "white_yellow_mug_demo_2",
+    "tomato_sauce_demo_3"
+  ],
+  "val_episodes": [
+    "alphabet_soup_demo_1"
+  ],
+  "fusion_dir": "/mnt/nvme1/drh/D_VLA/outputs/v3_stage2/multiframe_grasp_fusion_v1",
+  "source_lock_sha256": "cde9ab95ed9660bd881e5ac8415b28924b77bf0e227329bba7d41866c8351a17",
+  "variants": [
+    "object_only",
+    "pose_conditioned"
+  ],
+  "scope": "pipeline pilot, 3 train / 1 validation episode, no held-out claims"
+}

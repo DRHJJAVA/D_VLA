@@ -1,0 +1,24 @@
+{
+  "id": "CF006",
+  "time": "2026-10-24T14:58:26+08:00",
+  "type": "frozen_network_evidence_consistency_control",
+  "baseline": "CF005",
+  "network_retrained": false,
+  "human_feedback_used_as_labels": false,
+  "episodes": [
+    "tomato_sauce_demo_3",
+    "alphabet_soup_demo_1",
+    "white_yellow_mug_demo_5",
+    "alphabet_soup_demo_0",
+    "porcelain_mug_demo_9",
+    "tomato_sauce_demo_7"
+  ],
+  "geometry_separation": "geometry_reliable & state_valid & (distance - 2*sigma > 0.006)",
+  "candidate": "original_candidate & ~geometry_separation",
+  "conflict": "original_candidate & geometry_separation",
+  "conflict_class": "unknown; not failed contact truth",
+  "threshold_origin": "CF001 existing observed separation uncertainty bound, unchanged",
+  "unknown_retained": true,
+  "training": null,
+  "test_access": false
+}

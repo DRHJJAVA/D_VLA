@@ -1,0 +1,76 @@
+{
+  "run": "LCJP003_P1_v001",
+  "created_bjt": "2026-10-26T22:40:05.224563+08:00",
+  "train": [
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_0",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_1",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_2",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_3",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_4",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_5",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_6",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_7"
+  ],
+  "dev": [
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_45",
+    "pick_up_the_bbq_sauce_and_place_it_in_the_basket__demo_46"
+  ],
+  "steps": 3000,
+  "eval_every": 250,
+  "effective_batch": 8,
+  "G": 8,
+  "history": 16,
+  "horizon": 16,
+  "points": 2048,
+  "seed": 20261026,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "schedule": "constant",
+    "gradient_clipping": null
+  },
+  "drifting": {
+    "temperatures": [
+      0.02,
+      0.05,
+      0.2
+    ],
+    "source": "unchanged P0 verified src/drifting.py",
+    "positive_samples_per_condition": 1
+  },
+  "precision": "FP32",
+  "tf32": false,
+  "microbatch_candidates": [
+    2,
+    4,
+    8
+  ],
+  "cpu_threads": 8,
+  "interop_threads": 2,
+  "cache": "frozen per-frame features and deterministic geometry indices only",
+  "normalization": "actions of train demo0-7 only; no clipping; std floor inherited from P0",
+  "initialization": "fresh ModelConfig fixed seed; never load P0 engineering checkpoint",
+  "sampling": "uniform training episode then uniform valid current frame; replacement",
+  "eval": "8 fixed equally spaced frame indices per episode, all10 episodes; fixed G8 noise; report per-axis normalized/raw MAE and per-episode aggregates; no visual best selection",
+  "checkpoint": "initialization, every10 updates latest with optimizer+all RNG, milestone20/50/250 and each250; snapshots for evaluation",
+  "closed_loop": "20 trials after3000, train demo0-7 initial states cyclic 0..7 repeated twice then0..3, fixed action noise seed20261026+trial; no heldout",
+  "milestones": [
+    20,
+    50,
+    250
+  ],
+  "p0_source": {
+    "data.py": "fdb5f4172dd31e62117b0860eefca0b9947db9c58cf4ba2c37818131be7fd3cd",
+    "model.py": "1dbed592eaf87ed1adc076863712a678ecdce7e5abba4e096956c77a218c8725",
+    "features.py": "154d9ca16669909504217762bf085c6e5b87f29ce36214918c3442cbff4975d0",
+    "visibility.py": "b608271ad3184f7bb493883bbe6dde36118af020ee3c980ca8b66be31322ae57",
+    "drifting.py": "65556dc569493557f7571dfd9dae77e3c6fc6eb88a868bcf58e463808442ac18"
+  },
+  "scope": "P1 small-task learnability, not scoring benefit or generalization"
+}

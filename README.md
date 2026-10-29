@@ -22,3 +22,8 @@ Each training sample is a **single pre-contact RGB-D frame** from the two synchr
 All 50 demonstrations of the first LIBERO-Object task have been rendered as complete RGB-D sequences to support frame selection. Contact candidates have been extracted for 47 of 50 demonstrations, pending manual review. The active pointwise model is being prepared and trained. See `docs/STATUS.md`.
 
 LIBERO source is `/home/drh/project/ECV-VLA/vendor/LIBERO` at commit `8f1084e3132a39270c3a13ebe37270a43ece2a01`.
+
+
+## LCJP003 current project
+
+See [repository contents and server artifact requirements](docs/GITHUB_CONTENTS.md) and [the LCJP003 design and experiment log](docs/LCJP003_状态条件三维部位评分与DriftingVLA设计方案.md).

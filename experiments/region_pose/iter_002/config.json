@@ -1,0 +1,44 @@
+{
+  "iteration": 2,
+  "seed": 2026,
+  "epochs": 30,
+  "lr": 0.0002,
+  "weight_decay": 0.0001,
+  "max_points": 2048,
+  "min_points": 128,
+  "train_episodes": [
+    "alphabet_soup_demo_3",
+    "alphabet_soup_demo_5",
+    "alphabet_soup_demo_0",
+    "alphabet_soup_demo_6",
+    "alphabet_soup_demo_7",
+    "porcelain_mug_demo_10",
+    "porcelain_mug_demo_1",
+    "porcelain_mug_demo_4",
+    "porcelain_mug_demo_5",
+    "porcelain_mug_demo_9",
+    "tomato_sauce_demo_3",
+    "tomato_sauce_demo_1",
+    "tomato_sauce_demo_0",
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "white_yellow_mug_demo_2",
+    "white_yellow_mug_demo_5",
+    "white_yellow_mug_demo_6",
+    "white_yellow_mug_demo_4",
+    "white_yellow_mug_demo_3"
+  ],
+  "val_episodes": [
+    "alphabet_soup_demo_1",
+    "porcelain_mug_demo_2",
+    "tomato_sauce_demo_4",
+    "white_yellow_mug_demo_1"
+  ],
+  "fusion_dir": "/mnt/nvme1/drh/D_VLA/experiments/region_pose/iter_002/evidence/fusion",
+  "source_lock_sha256": null,
+  "variants": [
+    "object_only",
+    "pose_conditioned"
+  ],
+  "scope": "20/4 planned episode-held-out development, automatic region targets only; excludes all test/reserved data"
+}

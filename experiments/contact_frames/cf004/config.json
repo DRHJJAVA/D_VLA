@@ -1,0 +1,38 @@
+{
+  "train_episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "new_preparations": [
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "fixed_review_episodes": [
+    "white_yellow_mug_demo_5",
+    "alphabet_soup_demo_0",
+    "porcelain_mug_demo_9"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "arms": [
+    "state_dropout"
+  ],
+  "steps": 600,
+  "batch_size": 16,
+  "window": 9,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "auxiliary_weight": 0.2,
+  "selection": "same original20 seed2026 permutation next3; no action-type quotas/no output-based replacement",
+  "training_labels": "original automatic weak supervision; all human ranges review-only",
+  "checkpoint_selection": "last600 only; no selection by reviewed intervals",
+  "control": "cf003/no_world frozen last600",
+  "change": "train-only per-sample entire-state-branch zero mask, p=0.5, shared across 9-frame window; no scaling; all actual state retained in evaluation",
+  "state_dropout_probability": 0.5
+}

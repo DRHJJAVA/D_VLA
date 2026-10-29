@@ -1,0 +1,49 @@
+{
+  "id": "CF012",
+  "time": "2026-10-24T17:02:53+08:00",
+  "source": "cf011",
+  "episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "arms": [
+    "object_history",
+    "robot_conditioned"
+  ],
+  "inner_train": "all six unordered episode pairs",
+  "steps": 600,
+  "batch_size": 4,
+  "horizons": [
+    1,
+    2,
+    4
+  ],
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "photometric_weight": 0.1,
+  "calibration": "per outer episode and arm, one scalar per horizon; Gaussian NLL optimum; event and seed equal weights",
+  "minimum_variance_numeric": 1e-12,
+  "checkpoint": "last600",
+  "gpu_fraction": 0.3,
+  "manual_ranges_use": false,
+  "test_access": false,
+  "causal_baseline": "dense Farneback t to t-1 plus reverse consistency, RGB-D constant world velocity; no future tracking input",
+  "flow_parameters": {
+    "pyr_scale": 0.5,
+    "levels": 3,
+    "winsize": 15,
+    "iterations": 3,
+    "poly_n": 5,
+    "poly_sigma": 1.2,
+    "flags": 0,
+    "fb_px": 1.5,
+    "edge_depth_m": 0.01
+  }
+}

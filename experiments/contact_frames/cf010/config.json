@@ -1,0 +1,64 @@
+{
+  "train_episodes": [
+    "tomato_sauce_demo_7",
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "new_preparations": [
+    "tomato_sauce_demo_6",
+    "alphabet_soup_demo_3",
+    "porcelain_mug_demo_10"
+  ],
+  "fixed_review_episodes": [
+    "white_yellow_mug_demo_5",
+    "alphabet_soup_demo_0",
+    "porcelain_mug_demo_9",
+    "tomato_sauce_demo_3",
+    "alphabet_soup_demo_1"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "arms": [
+    "all_train_frames"
+  ],
+  "steps": 600,
+  "batch_size": 16,
+  "window": "full episode causal recurrent state",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "auxiliary_weight": 0.2,
+  "selection": "same original20 seed2026 permutation next3; no action-type quotas/no output-based replacement",
+  "training_labels": "CF008 automatic weak evidence unchanged; human ranges review only",
+  "checkpoint_selection": "last600 only; no review tuning",
+  "control": "CF008 frozen 9-frame block-clamped history",
+  "change": "same recurrent architecture and automatic CF008 targets; full continuous causal history without artificial block reset",
+  "training_split": "four entire training episodes; former internal audit frames are now training and never reported as held-out",
+  "id": "CF010",
+  "time": "2026-10-24T16:02:27+08:00",
+  "pair_offsets": [
+    -8,
+    -4,
+    -2,
+    -1,
+    1,
+    2,
+    4,
+    8
+  ],
+  "pair_sigma": "sqrt(sigma_t^2+sigma_s^2)",
+  "motion_models": [
+    "world-stationary material surface",
+    "measured hand rigid transport of same material surface"
+  ],
+  "evidence": "max(0,tanh((median(static_squared_error - hand_squared_error)/(2*sigma_pair^2))/2))",
+  "aggregation": "quality weighted mean over reliable endpoint pairs without confidently separated intermediate frame",
+  "main_target": "old proximity soft target * aggregated motion evidence",
+  "main_weight": "quality_t * mean(endpoint_quality); reliable separated frames retain old weight and target 0; no pair => unknown weight0",
+  "loss": "weighted BCE interaction + 0.5 original proximity BCE +0.2 original world-motion SmoothL1",
+  "human_feedback_training": false,
+  "semantics": "support for effective interaction under limited observation model; low score means unsupported/unknown unless independently separated"
+}

@@ -1,0 +1,17 @@
+{
+  "created": "2026-10-27T10:17:10+08:00",
+  "files": {
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/adapters.py": "75a70f88ac3ad467bf6fc3368045a8540a9038d5975e39c345c77ef43ce455a6",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/executor.py": "8029e853bcaf90ecc6729b6ddf8da555d74ca108c31849569d6a1f92794a932f",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/video.py": "d9a2dce7070b888561e8e7ab97c9faa707a35db724428147666607a705cbabc8",
+    "/mnt/nvme1/drh/D_VLA/experiments/lcjp003/p1/v001/closed_loop/protocol.json": "f894505814149a2947156c3d89e0e2195e3eabb46735a9ea6857a44053d778aa",
+    "/mnt/nvme1/drh/D_VLA/experiments/contact_joint_object/src/render_episode.py": "bb4921e4810735446fa5ae58d33777ddbc6a3cd0489f3a2e2e304e53ddfe2f5b",
+    "/mnt/nvme1/drh/D_VLA/experiments/contact_joint_object/src/observations.py": "23fcfe731c35389c330abfcc93eff249e8c57f2d86e8c8116fffd4e8ac74a005",
+    "/mnt/nvme1/drh/D_VLA/experiments/contact_joint_object/src/sampling.py": "3975a00395b40c98a739ece17d568e217a2cf120688637f279189132af4cb9e0",
+    "/mnt/nvme1/drh/D_VLA/src/v3/stage2_extract_dino.py": "d2023be140ff1e458d7027b1468ab0281b02d563678b14d67ddd195fcd61c8c7",
+    "/mnt/nvme1/drh/D_VLA/src/restore_audit.py": "0ff330695fb96d6180722d0b311a73f0cf19f278377f099639e4620ada5360ab",
+    "/mnt/nvme1/drh/D_VLA/src/asset_paths.py": "bc35d068c4fb9df84319306b53d2ed6fb612168a78d5a2018b019d371bcb57a2"
+  },
+  "activation_cases_passed": 5,
+  "updated": "2026-10-27T10:24:18+08:00"
+}

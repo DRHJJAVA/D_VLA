@@ -1,0 +1,17 @@
+{
+  "depth_range_m": [
+    0,
+    2
+  ],
+  "label_max": 24,
+  "zoom_padding": 24,
+  "zoom_min_size": 96,
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "new_labels": false,
+  "new_training": false,
+  "validation_read": false,
+  "test_read": false
+}

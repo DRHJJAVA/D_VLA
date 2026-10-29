@@ -1,0 +1,50 @@
+{
+  "time": "2026-10-25T19:43:13+08:00",
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "cases": [
+    {
+      "key": "drawer_demo_0",
+      "title": "拉开抽屉",
+      "frames": [
+        44,
+        60,
+        70,
+        88,
+        100,
+        120
+      ]
+    },
+    {
+      "key": "stove_demo_0",
+      "title": "转动炉灶开关",
+      "frames": [
+        70,
+        75,
+        86,
+        90,
+        100
+      ]
+    }
+  ],
+  "scope": "current dual-view real depth surface and pre-occlusion tracked source diagnostic",
+  "robot_depth_margin_m": 0.002,
+  "context_radius_m": 0.12,
+  "display_distance_band_m": 0.003,
+  "display_band_is_not_contact_label": true,
+  "patch_radii_m": [
+    0.003,
+    0.005
+  ],
+  "patch_min_cells": 12,
+  "normal_search_m": 0.008,
+  "mesh_sample_count_per_finger": 512,
+  "seed": 2026,
+  "scoring_training": false,
+  "no_object_pose_or_contact_truth": true,
+  "no_new_tracking": true,
+  "heldout_cases_not_read": true,
+  "source_motion": "existing RGB-D tracks; local rigid fit and heldout residual reported; never use global scene motion"
+}

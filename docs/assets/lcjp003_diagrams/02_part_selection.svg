@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1368pt" height="936pt" viewBox="0 0 1368 936" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T20:14:00.744314</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 936 
+L 1368 936 
+L 1368 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 216 232.2 
+L 216 342.122949 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 219 336.122949 
+L 216 342.122949 
+L 213 336.122949 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 684 232.2 
+L 684 342.122949 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 687 336.122949 
+L 684 342.122949 
+L 681 336.122949 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 216 433.8 
+L 216 745.322949 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 219 739.322949 
+L 216 745.322949 
+L 213 739.322949 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 921.6 635.4 
+L 921.6 792 
+L 993.722949 792 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 987.722949 789 
+L 993.722949 792 
+L 987.722949 795 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 446.4 635.4 
+L 446.4 792 
+L 374.277051 792 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 380.277051 795 
+L 374.277051 792 
+L 380.277051 789 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 684 433.8 
+L 684 590.4 
+L 604.677051 590.4 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 610.677051 593.4 
+L 604.677051 590.4 
+L 610.677051 587.4 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 840.6 388.8 
+L 864 388.8 
+L 864 518.4 
+L 921.6 518.4 
+L 921.6 543.722949 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 924.6 537.722949 
+L 921.6 543.722949 
+L 918.6 537.722949 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 900 635.4 
+L 900 792 
+L 842.277051 792 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 848.277051 795 
+L 842.277051 792 
+L 848.277051 789 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 372.6 388.8 
+L 525.722949 388.8 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 519.722949 385.8 
+L 525.722949 388.8 
+L 519.722949 391.8 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 372.6 813.6 
+L 504 813.6 
+L 504 792 
+L 525.722949 792 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 519.722949 789 
+L 525.722949 792 
+L 519.722949 795 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 603 612 
+L 626.4 612 
+L 626.4 655.2 
+L 972 655.2 
+L 972 813.6 
+L 993.722949 813.6 
+" clip-path="url(#ped2f20c224)" style="fill: none; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 987.722949 810.6 
+L 993.722949 813.6 
+L 987.722949 816.6 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #526a7c; stroke: #526a7c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 26px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #172b4d" x="54" y="54.378594" transform="rotate(-0 54 54.378594)">02  两级部位选择：组内选点，组间选部位</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 16px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52606d" x="54" y="915.7675" transform="rotate(-0 54 915.7675)">alpha 控制组内信息汇聚；beta 控制动作专家读取部位。展示分数来自同一条动作条件通路。</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 66.96 233.28 
+L 365.04 233.28 
+Q 373.68 233.28 373.68 224.64 
+L 373.68 149.76 
+Q 373.68 141.12 365.04 141.12 
+L 66.96 141.12 
+Q 58.32 141.12 58.32 149.76 
+L 58.32 224.64 
+Q 58.32 233.28 66.96 233.28 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #f7f9fc; stroke: #97a7b6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 534.96 233.28 
+L 833.04 233.28 
+Q 841.68 233.28 841.68 224.64 
+L 841.68 149.76 
+Q 841.68 141.12 833.04 141.12 
+L 534.96 141.12 
+Q 526.32 141.12 526.32 149.76 
+L 526.32 224.64 
+Q 526.32 233.28 534.96 233.28 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #f7f9fc; stroke: #97a7b6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 66.96 434.88 
+L 365.04 434.88 
+Q 373.68 434.88 373.68 426.24 
+L 373.68 351.36 
+Q 373.68 342.72 365.04 342.72 
+L 66.96 342.72 
+Q 58.32 342.72 58.32 351.36 
+L 58.32 426.24 
+Q 58.32 434.88 66.96 434.88 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #f7f9fc; stroke: #97a7b6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 534.96 434.88 
+L 833.04 434.88 
+Q 841.68 434.88 841.68 426.24 
+L 841.68 351.36 
+Q 841.68 342.72 833.04 342.72 
+L 534.96 342.72 
+Q 526.32 342.72 526.32 351.36 
+L 526.32 426.24 
+Q 526.32 434.88 534.96 434.88 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #fff0ca; stroke: #ba8c28; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 297.36 636.48 
+L 595.44 636.48 
+Q 604.08 636.48 604.08 627.84 
+L 604.08 552.96 
+Q 604.08 544.32 595.44 544.32 
+L 297.36 544.32 
+Q 288.72 544.32 288.72 552.96 
+L 288.72 627.84 
+Q 288.72 636.48 297.36 636.48 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #fff0ca; stroke: #ba8c28; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 772.56 636.48 
+L 1070.64 636.48 
+Q 1079.28 636.48 1079.28 627.84 
+L 1079.28 552.96 
+Q 1079.28 544.32 1070.64 544.32 
+L 772.56 544.32 
+Q 763.92 544.32 763.92 552.96 
+L 763.92 627.84 
+Q 763.92 636.48 772.56 636.48 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #fff0ca; stroke: #ba8c28; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 66.96 838.08 
+L 365.04 838.08 
+Q 373.68 838.08 373.68 829.44 
+L 373.68 754.56 
+Q 373.68 745.92 365.04 745.92 
+L 66.96 745.92 
+Q 58.32 745.92 58.32 754.56 
+L 58.32 829.44 
+Q 58.32 838.08 66.96 838.08 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #e4eff8; stroke: #5f8dae; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 534.96 838.08 
+L 833.04 838.08 
+Q 841.68 838.08 841.68 829.44 
+L 841.68 754.56 
+Q 841.68 745.92 833.04 745.92 
+L 534.96 745.92 
+Q 526.32 745.92 526.32 754.56 
+L 526.32 829.44 
+Q 526.32 838.08 534.96 838.08 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #f7f9fc; stroke: #97a7b6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 1002.96 838.08 
+L 1301.04 838.08 
+Q 1309.68 838.08 1309.68 829.44 
+L 1309.68 754.56 
+Q 1309.68 745.92 1301.04 745.92 
+L 1002.96 745.92 
+Q 994.32 745.92 994.32 754.56 
+L 994.32 829.44 
+Q 994.32 838.08 1002.96 838.08 
+z
+" clip-path="url(#ped2f20c224)" style="fill: #fff0ca; stroke: #ba8c28; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="216" y="192.301875" transform="rotate(-0 216 192.301875)">真实点的语义和几何</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(594 179.136984)">指令＋当前机器人状态</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(648 205.466766)">因果历史</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(117 380.736984)">按三维邻域组织局部点组</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(135 407.066766)">均匀与学习版本共用</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="684" y="393.901875" transform="rotate(-0 684 393.901875)">状态条件部位查询</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(375.650156 582.733547)">组内点权重 alpha</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(392.4 609.063328)">选择局部结构</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(846.575156 582.336984)">组间部位权重 beta</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(849.6 608.666766)">选择当前重要部位</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(153 783.936984)">汇聚每组的坐标</text>
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; fill: #172b4d" transform="translate(153 810.266766)">局部几何与语义</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="684" y="797.101875" transform="rotate(-0 684 797.101875)">动作专家读取部位 token</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 18px; font-family: 'Arial', 'Noto Sans CJK JP', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #172b4d" x="1152" y="797.498438" transform="rotate(-0 1152 797.498438)">逐点评分 beta × alpha</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="ped2f20c224">
+   <rect x="0" y="0" width="1368" height="936"/>
+  </clipPath>
+ </defs>
+</svg>

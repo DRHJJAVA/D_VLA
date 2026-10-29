@@ -1,0 +1,10 @@
+{
+  "files": {
+    "experiments/lcjp003/r5/joint/v001/closed_loop_object50/adapter.py": "43ba67bd6080d5497c33b2130b032e2817d897193064884f6989431e0beabd83",
+    "experiments/lcjp003/r5/joint/v001/closed_loop_object50/executor.py": "8ef645938d8359a54a8ac23ce1ea6d491d05edd8eed037e3e2c7db15bca04243",
+    "experiments/lcjp003/r5/joint/v001/closed_loop_object50/smoke.py": "2ebfc7f73c77c1cd83f3c925d8b8f5522cac0c7f61bbd81d091ae7cadb073150",
+    "experiments/lcjp003/r5/joint/v001/closed_loop_object50/task_words.pt": "e67c6b7ffeb4310f8ada24141e5c2cc310c86ada1aa95d3247318f30f48adb4c"
+  },
+  "no_video": true,
+  "time": 1793236703.9883795
+}

@@ -1,0 +1,28 @@
+{
+  "time": "2026-10-27T16:51:52.428410+08:00",
+  "files": {
+    "experiments/lcjp003/r2/v2/v001/src/pipeline.py": "68049b54c59e6cd46e637ff51e874e4f86589ed2e8111fdac7559f0ed5b0d8b8",
+    "experiments/lcjp003/r2/v2/v001/src/objective.py": "386770ec5bbdc471102478ad108f46242e0496d90e6a538e1b6bb69a7c860b7e",
+    "experiments/lcjp003/r2/v2/v001/src/inputs.py": "3443924f42d3ec17eee926bbae04f307cde4171c0168edaf0ae79d0eae935404",
+    "experiments/lcjp003/r2/v2/v001/src/network.py": "8020a90ddce18d9ed6399f995fcefc29fe5d185f68982f70c20965559f58553e",
+    "experiments/lcjp003/r2/v2/v001/src/train.py": "75843fdb9259d24d4db6c57474940fd2adfa8cac81b643f80f73ae30539dcde7",
+    "experiments/lcjp003/r2/v2/v001/src/common.py": "3e68084291661320c5f5f1f8dea9914035fc752a153d95bdc8d77035944e3439",
+    "experiments/lcjp003/r2/v2/v001/src/validate.py": "555e52628aeb57652e67b2d1323a03478595c4d55d1788237c6a42d4cc632e76",
+    "experiments/lcjp003/r2/v0_v1/v001/v0_corrected_check.py": "52005602891b6c650930d78cd27ec41befac4a19ed94fef17fb156af5ff4339e",
+    "experiments/lcjp003/r2/v0_v1/v001/smolvlm_with_expert_official.py": "b70356145870c7da1e92a2195ee4626f7e9f9387576c6bed5ba2bfefae2a38d9",
+    "experiments/lcjp003/r2/v0_v1/v001/fusion_interface/fusion_module.py": "727f7004ba800316337f6a6d12088e024990e9150a0c03327e007fe11ac0f480",
+    "experiments/lcjp003/r2/v0_v1/v001/segmentation_coverage.py": "5ed2b0145d1893acfac6bfbd90080a861c23a38da99c47dde8f554e150356730",
+    "experiments/lcjp003/r2/v0_v1/v001/v1_check.py": "5edcc865435c98d4d8f9bd5cbd6123595c58ffcd58074e6b36eda6ff85a407d8",
+    "experiments/lcjp003/src/data.py": "fdb5f4172dd31e62117b0860eefca0b9947db9c58cf4ba2c37818131be7fd3cd",
+    "experiments/lcjp003/src/visibility.py": "b608271ad3184f7bb493883bbe6dde36118af020ee3c980ca8b66be31322ae57"
+  },
+  "config_sha256": "0d9408f2f40ed0af66024f231dc56ac4f9dca9b66b56e7030d61c8f420777b33",
+  "episodes_sha256": "af3a10f0441993b9a8afa2225814a7f7ad993974a2ac33f8b0a8cd51a4ce103d",
+  "normalization_sha256": "80f7c5add709491f4738c5541912a5b098908b684a94054957ee68e764d055b0",
+  "validation_sha256": "4ccd3a7137a1afadb17380967ae1d17d671b9087e70465c1e724821a10675773",
+  "frozen_weights": {
+    "experiments/lcjp003/weights/smolvla_base/model.safetensors": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+    "experiments/contact_joint_object/dependencies/sam21_tiny.pt": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+    "experiments/lcjp003/weights/smolvlm2/model.safetensors": "b9bfd456c9472c0acd5719d6e514c4b859891af205ee1a736552fd3497b8b0c3"
+  }
+}

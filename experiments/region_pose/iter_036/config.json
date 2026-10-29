@@ -1,0 +1,1 @@
+{"episode": "white_yellow_mug_demo_6", "query": 36, "close": 37, "frames": [55, 57, 60], "loo_min_remaining": 7, "loo_min_valid": 7, "second_axis_min_m": 0.003, "near_query_m": 0.003, "cross_time_radius_m": 0.002, "support_min_frames": 2, "representative_voxel_m": 0.001, "new_labels": false}

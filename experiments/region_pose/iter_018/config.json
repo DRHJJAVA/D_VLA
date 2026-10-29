@@ -1,0 +1,11 @@
+{
+  "iteration": "018",
+  "data": "train only",
+  "tail_percentages": [
+    1,
+    5,
+    10
+  ],
+  "subset_size": 64,
+  "loss_tolerance": 2e-05
+}
